@@ -2,7 +2,7 @@
 
 Comparing development activity, responsiveness, and sustainability across 5 popular open-source LLM/AI tools — using live data pulled directly from the GitHub API.
 
-**[Live Dashboard on Tableau Public →](#)** *(replace with your published link)*
+**[[Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/chiru.ratnala/viz/Github_Repo_Analysis/Dashboard) →](#)**
 
 ---
 
