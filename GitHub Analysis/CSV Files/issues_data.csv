@@ -1,0 +1,401 @@
+repo_name,issue_number,title,state,created_at,closed_at,comments,labels,author
+langchain-ai/langchain,38654,"`_parse_google_docstring` leaks non-`Args` sections (`Raises:`, `Note:`, ...) into tool descriptions",closed,2026-07-04T03:53:32Z,2026-07-04T03:53:43Z,1,external,rogerdemello
+langchain-ai/langchain,38651,:Feature: Support Anthropic mid-conversation system messages (MidConversationSystemBlockParam / role:system in messages) in ChatAnthropic,open,2026-07-04T02:39:18Z,,1,"feature request, anthropic, external",Lambdua
+langchain-ai/langchain,38648,ChatFireworks._combine_llm_outputs raises TypeError on nested token_usage dicts (prompt_tokens_details) in batched generate(),open,2026-07-03T19:02:26Z,,1,"bug, fireworks, external",abcgco
+langchain-ai/langchain,38645,ChatFireworks._combine_llm_outputs raises TypeError on nested token_usage dicts (prompt_tokens_details) in batched generate(),closed,2026-07-03T14:44:08Z,2026-07-03T14:44:20Z,3,external,abcgco
+langchain-ai/langchain,38644,ChatAnthropic.bind_tools() crashes with KeyError: 'parameters' on advisor_ built-in tool,open,2026-07-03T12:16:49Z,,3,"bug, anthropic, external",corsettigyg
+langchain-ai/langchain,38643,ChatAnthropic.bind_tools() crashes with KeyError: 'parameters' on advisor_ built-in tool,closed,2026-07-03T11:59:23Z,2026-07-03T11:59:36Z,1,external,corsettigyg
+langchain-ai/langchain,38639,"ChatAnthropic streaming drops thinking field from empty thinking blocks (signature_delta-only), replay fails with 400 thinking.thinking: Field required",open,2026-07-03T10:55:08Z,,3,"bug, anthropic, external",Seo-yul
+langchain-ai/langchain,38638,"ChatAnthropic streaming drops `thinking` field from empty thinking blocks (signature_delta-only), replay fails with 400 `thinking.thinking: Field required`",closed,2026-07-03T10:38:31Z,2026-07-03T10:38:41Z,1,"anthropic, external",Seo-yul
+langchain-ai/langchain,38637,HuggingFaceEndpointEmbeddings missing bill_to / additional_headers parameter,open,2026-07-03T09:01:30Z,,3,"bug, huggingface, external",zurfjereluhmie
+langchain-ai/langchain,38630,Eval dataset for agents,closed,2026-07-02T23:48:36Z,2026-07-02T23:48:46Z,1,external,connerlambden
+langchain-ai/langchain,38629,MultiQueryRetriever.unique_union() crashes on list/dict metadata,closed,2026-07-02T20:30:31Z,2026-07-02T20:49:45Z,3,"bug, langchain, external",axiom-of-choice
+langchain-ai/langchain,38627,Bug: EnsembleRetriever silently overwrites metadata when documents share page_content,closed,2026-07-02T20:16:36Z,2026-07-02T20:16:47Z,1,external,axiom-of-choice
+langchain-ai/langchain,38626,Bug: MultiQueryRetriever.unique_union() crashes on documents with list/dict metadata,closed,2026-07-02T20:16:20Z,2026-07-02T20:16:34Z,1,external,axiom-of-choice
+langchain-ai/langchain,38612,Realistic Firefox option for PlayWrightBrowserToolkit agents,closed,2026-07-02T12:37:10Z,2026-07-02T12:37:22Z,1,external,feder-cr
+langchain-ai/langchain,38610,[Bug]: ChatOpenRouter leaks httpx.AsyncClient instances causing Ephemeral Port Exhaustion,open,2026-07-02T11:28:25Z,,3,"bug, external, openrouter",QiuYucheng2003
+langchain-ai/langchain,38605,Building AI-Automated Vulnerability Discovery Pipeline with Multi-LLM Orchestration - Real Case Study,closed,2026-07-02T03:21:54Z,2026-07-02T03:22:06Z,1,external,Exploit-Garbage
+langchain-ai/langchain,38603,Docstring inconsistency in BaseChatMessageHistory.add_message Raises section,open,2026-07-02T02:37:57Z,,4,"bug, core, external",Traving-Yu
+langchain-ai/langchain,38601,merge_content mutates its first argument (chunk_a + chunk_b corrupts chunk_a),closed,2026-07-01T19:19:00Z,2026-07-01T19:19:11Z,1,external,Vedant-Agarwal
+langchain-ai/langchain,38589,[Feature]: Add Static Analyzer to detect Cross-Modal Leaks in Custom Tools (Defense-in-Depth),open,2026-07-01T15:46:16Z,,4,"core, feature request, external",ashp15205
+langchain-ai/langchain,38580,core: convert_to_openai_messages escapes non-ASCII in json content blocks (inconsistent with tool_use path),closed,2026-06-30T22:45:54Z,2026-06-30T22:46:04Z,2,"core, external",HumphreySun98
+langchain-ai/langchain,38572,Uzbek low-resource RAG evaluation,open,2026-06-30T10:37:12Z,,2,"langchain, feature request, chroma, huggingface, external",rajantripathi
+langchain-ai/langchain,38565,Cookbook proposal: Uzbek low-resource RAG evaluation,closed,2026-06-30T05:18:18Z,2026-06-30T05:18:30Z,1,external,rajantripathi
+langchain-ai/langchain,38561,with_structured_output is not supported when reasoning effort is used,open,2026-06-30T03:54:42Z,,6,"bug, langchain, openai, external",spewwerrier
+langchain-ai/langchain,38560,Docs: missing `await` in `asimilarity_search` docstring examples in InMemoryVectorStore and Chroma,closed,2026-06-30T02:34:57Z,2026-06-30T02:35:06Z,2,external,RavSinghChandan
+langchain-ai/langchain,38557,`extract_sub_links` scope escape: `prevent_outside` matches sibling paths (`/docs` matches `/docsite`),closed,2026-06-30T00:23:40Z,2026-06-30T00:23:54Z,2,"core, external",abhay-codes07
+langchain-ai/langchain,38555,"Mustache list sections silently drop falsy items (`0`, `False`, `""""`)",closed,2026-06-29T23:59:55Z,2026-06-30T00:00:06Z,2,"core, external",abhay-codes07
+langchain-ai/langchain,38550,Deprecated classic chat agents leak empty ValueError on save,closed,2026-06-29T17:07:32Z,2026-06-29T17:07:45Z,1,external,onyx679
+langchain-ai/langchain,38549,Filesystem file search rejects valid path segments containing double dots,open,2026-06-29T15:49:23Z,,7,"bug, langchain, external",onyx679
+langchain-ai/langchain,38548,Filesystem file search rejects valid path segments containing double dots,closed,2026-06-29T15:37:09Z,2026-06-29T15:37:22Z,1,"langchain, external",onyx679
+langchain-ai/langchain,38544,`ProviderToolSearchMiddleware` defers tools as flat top-level functions instead of wrapping them in a `namespace` — no token savings,open,2026-06-29T13:04:41Z,,5,"bug, langchain, openai, external",oleg-savko
+langchain-ai/langchain,38540,`ProviderToolSearchMiddleware` defers tools as flat top-level functions instead of wrapping them in a `namespace` — no token savings,closed,2026-06-29T13:00:17Z,2026-06-29T13:00:31Z,1,external,oleg-savko
+langchain-ai/langchain,38536,"Stale docstring parameters in langchain-core (_write, set_text)",closed,2026-06-29T12:08:05Z,2026-06-29T12:08:17Z,1,"core, external",eeshsaxena
+langchain-ai/langchain,38530,InMemoryCache evicts unrelated entries when updating an existing key,closed,2026-06-29T09:01:31Z,2026-06-29T09:01:46Z,1,external,onyx679
+langchain-ai/langchain,38529,InMemoryCache evicts unrelated entries when updating an existing key,closed,2026-06-29T08:59:05Z,2026-06-29T08:59:19Z,1,external,onyx679
+langchain-ai/langchain,38521,Cross-platform collaboration: AgentPub <-> langchain,closed,2026-06-29T04:50:37Z,2026-06-29T04:50:48Z,1,external,liboy119
+langchain-ai/langchain,38509,Cross-platform collaboration: AgentPub <-> langchain,closed,2026-06-28T11:00:50Z,2026-06-28T11:01:03Z,1,external,liboy119
+langchain-ai/langchain,38508,Cross-platform collaboration: AgentPub <-> langchain,closed,2026-06-28T06:20:24Z,2026-06-28T06:20:45Z,1,external,liboy119
+langchain-ai/langchain,38506,bug: [chroma] similarity_search_by_vector_with_relevance_scores returns raw distances instead of normalized scores,open,2026-06-27T15:29:27Z,,7,"bug, chroma, external",rautaditya2606
+langchain-ai/langchain,38504,bug: Legacy Qdrant vector store returns raw distances instead of normalized relevance scores,open,2026-06-27T15:09:32Z,,2,"bug, qdrant, external",rautaditya2606
+langchain-ai/langchain,38493,Feature: Add IndicTextLoader for Indian language documents,closed,2026-06-26T23:26:23Z,2026-06-26T23:26:33Z,1,"feature request, external",AyushSahu-OpenSrc
+langchain-ai/langchain,38486,Feature Request: TEE Attestation Support for Agent Deployments,closed,2026-06-26T12:55:44Z,2026-06-26T12:55:58Z,3,"langchain, external",kawacukennedy
+langchain-ai/langchain,38485,Discussion: TEE Attestation for LangChain Agent Deployments,closed,2026-06-26T12:51:39Z,2026-06-26T12:51:50Z,2,external,kawacukennedy
+langchain-ai/langchain,38484,"langchain stream_events v3 final response tokens not streamed in real-time, all arrive at once",open,2026-06-26T12:33:06Z,,7,"bug, langchain, external",hanruiyao163
+langchain-ai/langchain,38482,TypeError: unsupported operand type(s) for += on dict in _combine_llm_outputs when making multiple LLM calls,open,2026-06-26T09:20:35Z,,4,"bug, mistralai, external",ffoss
+langchain-ai/langchain,38471,## Fix #5819: wrap httpx transport errors as LangGraphError subclasses,closed,2026-06-26T03:29:11Z,2026-06-26T03:29:21Z,1,external,liang-zhenxiang
+langchain-ai/langchain,38469,core: `BaseChatModel.agenerate` masks a non-`Exception` `BaseException` with `AttributeError`,open,2026-06-26T02:40:06Z,,5,"bug, langchain, external",danielenricocahall
+langchain-ai/langchain,38468,core: `BaseChatModel.agenerate` masks a non-`Exception` `BaseException` with `AttributeError`,closed,2026-06-26T02:25:18Z,2026-06-26T02:25:27Z,1,external,danielenricocahall
+langchain-ai/langchain,38465,"Bug: langchain-anthropic file_tool callback never emits args[""old_path""] but _handle_rename reads it -> KeyError on every rename",open,2026-06-26T01:48:59Z,,4,"bug, anthropic, external",Fr3ya
+langchain-ai/langchain,38457,bug(core): merge_lists skips tool_call merge when index is string digit vs int,closed,2026-06-25T13:24:13Z,2026-06-25T13:24:24Z,5,"core, external",Harsh23Kashyap
+langchain-ai/langchain,38456,bug(core): merge_lists skips tool_call merge when index is string digit vs int,closed,2026-06-25T13:24:07Z,2026-06-25T13:24:19Z,1,"core, external",Harsh23Kashyap
+langchain-ai/langchain,38455,merge_dicts coerces conflicting bool metadata values to integer sums,closed,2026-06-25T11:05:28Z,2026-06-25T11:05:42Z,1,"core, external",Harsh23Kashyap
+langchain-ai/langchain,38453,merge_dicts coerces conflicting bool metadata values to integer sums,closed,2026-06-25T11:02:32Z,2026-06-25T11:02:43Z,4,"core, external",Harsh23Kashyap
+langchain-ai/langchain,38440,bug(core): cache implementing `__len__` makes `generate`/`agenerate` raise `KeyError`,open,2026-06-24T22:20:39Z,,10,"bug, core, external",AliMuhammadAslam
+langchain-ai/langchain,38439,"bug(core): `aupdate_cache` skips writes for caches implementing `__len__`, diverging from `update_cache`",closed,2026-06-24T22:08:09Z,2026-06-24T22:08:20Z,1,"core, external",AliMuhammadAslam
+langchain-ai/langchain,38437,LangChain release process,closed,2026-06-24T18:36:12Z,2026-06-24T18:39:02Z,0,internal,mdrxy
+langchain-ai/langchain,38404,"HTMLSemanticPreservingSplitter reorders inline text around tags (e.g. <strong>, <a>, etc.)",open,2026-06-24T13:39:01Z,,5,"bug, text-splitters, external",evisser
+langchain-ai/langchain,38398,langchain-anthropic: `cache_control` on a `tool_use` content block is silently dropped when a matching `tool_calls` item exists,open,2026-06-24T09:32:40Z,,8,"bug, anthropic, external",menezesandre
+langchain-ai/langchain,38391,Feature request: Profile-aware prompt router with ML-backed routing and ensemble fallback,open,2026-06-24T01:22:42Z,,3,"langchain, feature request, external",zavera
+langchain-ai/langchain,38390,Feature request: Profile-aware prompt router with ML-backed routing and ensemble fallback,closed,2026-06-24T01:15:09Z,2026-06-24T01:15:20Z,1,external,zavera
+langchain-ai/langchain,38388,Fireworks forwards unsupported file content blocks,closed,2026-06-23T19:08:19Z,2026-06-29T21:06:48Z,2,internal,mdrxy
+langchain-ai/langchain,38384,ChatMistralAI incompatible token output format for LangSmith traceability,open,2026-06-23T16:16:51Z,,8,"bug, mistralai, external",henriquejsb
+langchain-ai/langchain,38374,Performance: lazy-load transformers on BaseChatModel import to improve startup time,closed,2026-06-22T22:21:10Z,2026-06-22T22:21:20Z,1,external,gmrnlg1971
+langchain-ai/langchain,38366,"[Bug] merge_dicts concatenates identical string metadata fields across streaming chunks (model_name, finish_reason doubled)",closed,2026-06-22T16:52:38Z,2026-06-30T16:37:16Z,11,"bug, core, external",codeonym
+langchain-ai/langchain,38362,Add Xquik tool pattern for public X data workflows,open,2026-06-22T12:04:44Z,,1,"feature request, external",kriptoburak
+langchain-ai/langchain,38361,Add Xquik tool integration for public X data workflows,closed,2026-06-22T11:06:46Z,2026-06-22T11:07:00Z,1,external,kriptoburak
+ollama/ollama,17029,ollama launch: option to disable the alternate screen buffer so terminal scrollback/history is preserved,open,2026-07-04T05:59:59Z,,0,,dpc00
+ollama/ollama,17028,LLaVA-OneVision-2 Model Request,open,2026-07-04T05:58:56Z,,0,,TheElderWyrm
+ollama/ollama,17026,"cuda_v13: long grammar-constrained (`format`) generation crashes with ""CUDA error: unspecified launch failure"" → Xid 79 (GPU falls off the bus); same requests fine on cuda_v12",open,2026-07-04T03:14:49Z,,0,,LaughingKuma
+ollama/ollama,17024,No memory error with Qwen3-coder:30b,open,2026-07-04T01:22:43Z,,0,bug,alemata2006
+ollama/ollama,17019,create: Qwen MLX safetensors import preserves MTP tensors and corrupts output,open,2026-07-03T13:29:20Z,,1,,pd95
+ollama/ollama,17018,Vulkan Multi-GPU Allocation Anomaly,open,2026-07-03T11:31:21Z,,0,bug,Home-RAG
+ollama/ollama,17016,dspark option,open,2026-07-03T03:55:29Z,,1,feature request,iplayfast
+ollama/ollama,17015,Users cannot see the ThinkButton in ollama app.,closed,2026-07-03T02:16:59Z,2026-07-03T06:09:13Z,0,bug,jackjiao6
+ollama/ollama,17014,Open benchmark datasets for local model testing,closed,2026-07-02T23:48:55Z,2026-07-03T01:53:50Z,0,,connerlambden
+ollama/ollama,17013,MLX engine silently ignores `format` (structured outputs) — same request enforced on GGUF variant of the same model,closed,2026-07-02T22:33:34Z,2026-07-02T22:42:25Z,0,,ryandmonk
+ollama/ollama,17012,"Windows: llama-server.exe crashes with 0xc0000409 (ucrtbase.dll) / CUDA error ""PTX was compiled with an unsupported toolchain""",closed,2026-07-02T22:30:25Z,2026-07-03T16:49:41Z,1,bug,treasureboxnoreply-ops
+ollama/ollama,17011,nemotron became stupid,open,2026-07-02T22:15:30Z,,6,"bug, needs more info",john79nl
+ollama/ollama,17006,Segmentation fault on VMware ESXi 8.0.3 with Intel Xeon Gold 6526Y (Sapphire Rapids) running Ubuntu 24.04,open,2026-07-02T15:38:50Z,,1,bug,eribertos
+ollama/ollama,17004,bug: --keep-alive 0 fails to unload model with concurrent requests on v0.5+,closed,2026-07-02T13:13:50Z,2026-07-03T06:39:57Z,2,,tcconnally
+ollama/ollama,17003,MTP Support,open,2026-07-02T12:35:10Z,,1,"bug, needs more info",kris0377
+ollama/ollama,17002,Feature Request: Add Sakana AI Fugu to Ollama Cloud,open,2026-07-02T05:14:51Z,,1,"model, cloud",golden6919
+ollama/ollama,17001,codex config local model ollama failed,open,2026-07-02T03:12:12Z,,2,bug,isold23
+ollama/ollama,16997,Ollama mobile app,closed,2026-07-01T22:49:52Z,2026-07-02T22:29:14Z,5,feature request,Rafael-Silva-Oliveira
+ollama/ollama,16995,Mac mlx model pull version mismatch via brew,closed,2026-07-01T20:31:55Z,2026-07-02T22:30:24Z,2,bug,keonik
+ollama/ollama,16992,ornith:35b — RENDERER/PARSER emits raw special tokens and unparsed tool-call XML in Claude Code / OpenAI-compat clients,open,2026-07-01T17:07:19Z,,0,bug,ronalddatawonder
+ollama/ollama,16990,Can Add KV cache handling to MLX models,closed,2026-07-01T12:04:46Z,2026-07-01T14:23:46Z,2,feature request,createne1
+ollama/ollama,16988,API error with maxwell1500/ornith-9b:Q8_0 or rafw007/ornith-claude-coder in Claude Code CLI,open,2026-07-01T09:16:29Z,,5,bug,normancates
+ollama/ollama,16987,Community recipe: Persistent memory for Ollama apps via Dakera middleware,closed,2026-07-01T08:40:09Z,2026-07-01T09:32:54Z,1,,ferhimedamine
+ollama/ollama,16986,Test,closed,2026-07-01T08:39:25Z,2026-07-01T08:39:26Z,0,,ferhimedamine
+ollama/ollama,16985,CUDA Detection issues,open,2026-07-01T05:27:49Z,,3,"bug, needs more info",seedrick
+ollama/ollama,16984,Can we add Mlx model to Qwen3.6-35B?,closed,2026-07-01T04:05:06Z,2026-07-01T04:19:01Z,1,feature request,createne1
+ollama/ollama,16978,Feature Request: Expose VRAM-Adjusted Runtime Context Window via API,closed,2026-06-30T14:10:07Z,2026-06-30T15:08:40Z,2,feature request,mooleshacat
+ollama/ollama,16977,GET /api/tags omits capabilities that /api/show reports — affects tool-using clients across model types,closed,2026-06-30T13:17:06Z,2026-06-30T13:21:35Z,0,,tcconnally
+ollama/ollama,16976,Generate endpoint for gemma4:26b in raw mode with thinking: false drops control tokens,open,2026-06-30T13:00:58Z,,0,bug,rlsvarinskis
+ollama/ollama,16970,"Core binary has no standalone fallback CUDA discovery, while the external cuda_v12/v13 libraries contain a fatal pointer/instruction regression for Pascal architecture (GTX 1080Ti) under 570+ drivers.",closed,2026-06-30T08:05:36Z,2026-06-30T13:52:12Z,14,bug,luorixiangyang
+ollama/ollama,16969,"/api/tags omits ""tools"" capability for deepseek-r1 while /api/show reports it correctly",open,2026-06-30T07:39:06Z,,0,bug,leftor
+ollama/ollama,16968,500 Internal Server Error: llama-server startup failed before projector CPU offload retry: llama-server reported out-of-memory during startup: ggml_backend_cpu_buffer_type_alloc_buffer: failed to allocate buffer of size 2390753280 alloc_tensor_range,closed,2026-06-30T06:19:55Z,2026-07-02T04:22:12Z,4,bug,gzqy-hub
+ollama/ollama,16959,Feature Request : Add a global setting to disable thinking mode on Desktop App,closed,2026-06-29T13:50:06Z,2026-06-29T14:25:32Z,1,,alexandre-leng
+ollama/ollama,16957,"nvidia 1080Ti take 0xc0000005 error, couldn't offload to GPU.",open,2026-06-29T12:00:09Z,,11,bug,luorixiangyang
+ollama/ollama,16951,After upgrade to Ollama v0.30.11 it crashes every time,closed,2026-06-28T20:10:03Z,2026-06-29T19:36:11Z,7,"bug, needs more info",FunctionPoint
+ollama/ollama,16950,Vision processing issues and performance regression after update to v0.30.11. Gemma4 QAT,open,2026-06-28T11:52:41Z,,1,"bug, needs more info",R3veng3R
+ollama/ollama,16946,llama-server core dumps when serving GPT-OSS with OLLAMA_KV_CACHE_TYPE=q8_0,open,2026-06-28T03:01:29Z,,7,"bug, needs more info",gsquarediv
+ollama/ollama,16945,"qwen3-vl:8b ignores think=false and /set nothink, streaming never emits content",closed,2026-06-28T02:11:57Z,2026-06-29T16:41:06Z,3,bug,marcelo1damian2prieto
+ollama/ollama,16940,"Native RTL Support for Chat UI (Arabic, Persian, Hebrew & Other Right-to-Left Languages)",open,2026-06-27T11:57:47Z,,1,"feature request, app",shrideh
+ollama/ollama,16938,Model Request: baidu/Unlimited-OCR,open,2026-06-27T06:53:13Z,,2,model,th1nhhdk
+ollama/ollama,16936,"Imported GGUF (hf.co/...) thinks by default, but reports no `thinking` capability and rejects `think: true`",closed,2026-06-27T03:29:26Z,2026-06-27T14:58:21Z,2,,kanghouchao
+ollama/ollama,16932,Tool call silently dropped (empty response) when a tool parameter is named `name` - Mistral-format models (devstral-small-2),open,2026-06-26T16:50:04Z,,1,bug,JohnDWorld
+ollama/ollama,16930,Proposal: Intel SYCL / oneAPI GPU backend (Arc / Battlemage),open,2026-06-26T14:48:37Z,,0,"feature request, intel",Sjoerd
+ollama/ollama,16928,Ollama/Codex (latest) bug,closed,2026-06-26T13:19:46Z,2026-06-26T16:41:51Z,3,bug,sanramballie-ux
+ollama/ollama,16926,Model `gemma4:e4b-mlx` does not support images,closed,2026-06-26T09:22:09Z,2026-06-26T09:34:08Z,0,bug,HBLAB-TuanNA2-Trevor
+ollama/ollama,16925,RTX PRO 2000 Blackwell ×2，Windows，cuda_v13 list-devices 0xc0000005,closed,2026-06-26T08:48:22Z,2026-06-30T22:11:28Z,7,bug,jinj840111-cloud
+ollama/ollama,16923,not able to connect,open,2026-06-26T06:23:04Z,,0,bug,gilbertbodyb28
+ollama/ollama,16922,ollama.com Anthropic-compatible /v1/messages endpoint does not accept x-api-key authentication,open,2026-06-26T05:57:59Z,,0,bug,natesilva
+ollama/ollama,16917,Switch wifi while downloading a model: pulling manifest  Error: EOF,open,2026-06-25T23:28:14Z,,4,"bug, needs more info",ramioooz
+ollama/ollama,16908,"Windows: RTX 3050 Laptop GPU (SM 8.6) is skipped with ""compute capability not in compiled architectures"", causing Vulkan fallback and model load failure",closed,2026-06-25T17:43:30Z,2026-06-25T17:54:35Z,0,bug,Diggu07
+ollama/ollama,16905,macos 26 icon,open,2026-06-25T17:09:00Z,,0,feature request,yanhuifair
+ollama/ollama,16902,user library: improved tag detection,open,2026-06-25T16:28:03Z,,0,"feature request, ollama.com",rick-github
+ollama/ollama,16901,Context shift fails on large num_ctx (74k) with qwen3.6:27b on Windows (RTX 5090),open,2026-06-25T15:18:02Z,,3,bug,Hekas1
+ollama/ollama,16900,Requesting Model: Qwen Agent World,open,2026-06-25T14:19:12Z,,6,model,yuisheaven
+ollama/ollama,16898,Vim key bindings for CLI,open,2026-06-25T10:02:41Z,,0,"feature request, cli",j-lakeman
+ollama/ollama,16897,Very verbose llama-server logging by default since recent update,open,2026-06-25T08:42:08Z,,3,bug,AInteriorB
+ollama/ollama,16896,Ollama Desktop context length setting ignored,closed,2026-06-25T07:45:35Z,2026-06-25T08:33:23Z,0,bug,albertdyi
+ollama/ollama,16892,glm-ocr infinite loop,open,2026-06-24T17:22:36Z,,4,bug,sherpya
+ollama/ollama,16891,ollama create does not inherit model_info from parent model — context_length is lost,open,2026-06-24T17:19:58Z,,1,cloud,kernelplv
+ollama/ollama,16890,ollama-cloud /api/chat rejects num_predict > 65536 for deepseek-v4-pro despite published 384K output / 1M context specs,open,2026-06-24T17:17:20Z,,0,cloud,logicminds
+ollama/ollama,16889,Suggestion: Improve Windows + HIP/clang build ergonomics,open,2026-06-24T16:46:06Z,,1,"feature request, build",Maxritz
+ollama/ollama,16887,Please Support Qwen3-VL-Embedding-8B,closed,2026-06-24T12:39:12Z,2026-06-24T12:50:00Z,1,,Jigit-ship-it
+ollama/ollama,16885,"ollama launch <cloud-model> panics with ""flag accessed but not defined: verbose""",closed,2026-06-24T12:04:13Z,2026-06-24T12:38:52Z,6,bug,Pranjal240
+ollama/ollama,16884,GLM-5.2 Cloud Model reasoning degradation and cyber capability dumbing down detected.,closed,2026-06-24T10:34:49Z,2026-06-25T23:43:51Z,16,bug,argosdevo-hub
+ollama/ollama,16880,Optional: add an HVTracker trust badge to the README,open,2026-06-23T20:44:15Z,,0,,YugantM
+ollama/ollama,16876,x/flux2-klein:4b doesn't support,open,2026-06-23T16:29:14Z,,1,bug,Gam5510
+ollama/ollama,16874,gemma4:e2b and gemma4:e4b not working since last few days for image inputs.,closed,2026-06-23T12:26:14Z,2026-06-23T12:56:36Z,0,bug,Yash-S-S
+ollama/ollama,16873,[Bug/Performance] High CPU and low GPU utilization on Windows with dual-socket server,open,2026-06-23T07:25:06Z,,13,bug,poya7020
+ollama/ollama,16872,Ollama Cloud - Add context limit information to the /api/tags response,closed,2026-06-23T05:29:14Z,2026-06-23T06:21:16Z,4,"feature request, cloud",robjgray
+ollama/ollama,16860,MLX prompt-cache restore can change deterministic output,closed,2026-06-22T16:22:09Z,2026-06-26T23:55:14Z,1,bug,pd95
+ollama/ollama,16858,gemma4:26b-mlx: Fail to run,closed,2026-06-22T08:58:22Z,2026-06-24T08:55:27Z,3,"bug, needs more info",IvanBigO
+ollama/ollama,16857,Feature Request: Hybrid Local + Cloud Inference Orchestration,open,2026-06-22T08:38:46Z,,0,feature request,drofnas
+ollama/ollama,16855,libomp can't load on Windows 11 Home 25H2,closed,2026-06-22T05:16:01Z,2026-06-22T21:36:13Z,1,bug,slavikz-centrum
+ollama/ollama,16853,"Bug: /v1 compatibility endpoint injects non-standard 'reasoning' field, breaking OpenAI clients",closed,2026-06-22T01:05:58Z,2026-06-22T15:55:08Z,8,bug,iamdavidmichaelmoore
+ollama/ollama,16848,/set think in modelfile ignored,closed,2026-06-21T11:53:30Z,2026-06-21T12:04:52Z,8,bug,AuriR
+ollama/ollama,16847,Withdrawn — reported via other channels,closed,2026-06-21T08:36:49Z,2026-06-21T08:39:35Z,0,,milo-operator
+ollama/ollama,16846,qwen2.5-coder:14b taking too long to respond in claude code,open,2026-06-21T08:12:24Z,,6,"bug, needs more info",Marcosayfi
+ollama/ollama,16845,Cloud model kimi-k2.6:cloud: extreme latency and stream INTERNAL_ERROR on /api/chat (recurring for days),open,2026-06-21T07:59:49Z,,0,cloud,renaudcerrato
+ollama/ollama,16844,app: model update,open,2026-06-21T07:45:09Z,,0,"bug, app",zeittresor
+ollama/ollama,16843,Enable range request in server,closed,2026-06-21T06:56:52Z,2026-06-21T14:45:34Z,4,feature request,maifeeulasad
+ollama/ollama,16835,"Optionally expose llama.cpp slot KV save/restore (opt-in, off by default)",closed,2026-06-21T01:25:18Z,2026-06-27T07:46:13Z,3,feature request,CHIPMUNK-T0T
+ollama/ollama,16833,Add a way to filter only local models,open,2026-06-20T16:30:57Z,,4,"feature request, ollama.com",victorolinasc
+ollama/ollama,16832,Models compatibility,closed,2026-06-20T16:04:54Z,2026-07-01T16:30:51Z,2,"bug, needs more info",seraphim1976
+ollama/ollama,16830,bug: model stays loaded in memory after context window overflow — no eviction on OOM-kill path,closed,2026-06-20T13:04:38Z,2026-06-29T19:28:54Z,2,,tcconnally
+ollama/ollama,16829,ollama.com blocked by quad9 DNS,closed,2026-06-20T12:51:39Z,2026-06-20T17:55:45Z,2,,bigun27
+ollama/ollama,16828,num_ctx ignored on AMD/ROCm — always uses GGUF header value,closed,2026-06-20T11:24:35Z,2026-07-01T16:33:27Z,1,bug,Rechtsanwalter
+ollama/ollama,16826,first download then clean up old version,open,2026-06-20T07:39:14Z,,1,feature request,nanderer
+ollama/ollama,16822,[POSSIBLE BUG] Model inconsistency between commandline and Desktop App.,closed,2026-06-20T00:59:55Z,2026-06-20T23:17:38Z,7,,LeeC2202Git
+ollama/ollama,16821,Gemma and Qwen models not working with Native Function Calling in OpenWebUI,closed,2026-06-19T23:22:01Z,2026-06-20T00:44:39Z,5,bug,NicholasFlamy
+ollama/ollama,16819,Customizing the model dropdown menu,open,2026-06-19T21:17:54Z,,2,feature request,VisualCoder-sudo
+ollama/ollama,16818,ollama CLI should support `CTRL+LEFT` and `CTRL+RIGHT`,open,2026-06-19T20:37:14Z,,0,feature request,StartAutomating
+ollama/ollama,16814,Ollama ignores num_ctx completely on the request.,closed,2026-06-19T14:59:40Z,2026-06-21T17:11:18Z,1,bug,luisbrandao
+ollama/ollama,16813,bug: MCP tool execution has no timeout — hung tool permanently blocks model inference,closed,2026-06-19T14:14:04Z,2026-06-29T19:28:56Z,2,needs more info,tcconnally
+ollama/ollama,16811,Add support for ppc64le architecture,open,2026-06-19T12:27:00Z,,0,feature request,shalinib-ibm
+ollama/ollama,16810,qwen3.5:27b error when calling web-search function in Ollama,open,2026-06-19T07:11:42Z,,4,bug,DanoPTT
+ollama/ollama,16809,Gemma4:e4b failed to work with the image uploaded,closed,2026-06-19T06:48:47Z,2026-06-19T09:13:44Z,0,bug,coder168
+ollama/ollama,16804,nemotron-3-ultra:cloud 'Error: pull model manifest: file does not exist',open,2026-06-18T17:37:32Z,,4,bug,enarciso
+ollama/ollama,16803,update the content please,closed,2026-06-18T14:55:38Z,2026-06-18T16:40:12Z,2,,Abhinauv22
+ollama/ollama,16801,feat: add `ollama verify` and `ollama repair` commands for model integrity checking,closed,2026-06-18T13:13:01Z,2026-06-18T16:42:48Z,2,,tcconnally
+ollama/ollama,16800,Make truncation configurable,closed,2026-06-18T13:07:54Z,2026-06-29T12:25:57Z,6,feature request,manthey
+ollama/ollama,16799,ui,open,2026-06-18T11:23:20Z,,2,feature request,predators46
+ollama/ollama,16798,[Bug] (in a Docker container) Failed to import sharded GGUF model via Modelfile: stuck at gathering model components,closed,2026-06-18T09:43:00Z,2026-06-18T09:45:29Z,0,bug,sky41
+ollama/ollama,16797,Ollama cannot find model despite the model already being downloaded,closed,2026-06-18T09:40:29Z,2026-06-19T13:57:33Z,9,"bug, needs more info",richie16180
+ollama/ollama,16796,Ollama 0.30.x forces sequential execution for Qwen3.6-35B instead of parallel concurrency on 3x Tesla V100 (32GB),closed,2026-06-18T07:38:16Z,2026-06-18T09:43:10Z,4,,SY-Admin-LM
+ollama/ollama,16794,ollama 最新变量和接口文档在哪里查看,closed,2026-06-18T04:26:16Z,2026-06-18T16:46:04Z,2,feature request,gitzixuan
+ollama/ollama,16793,Image recognition of Model Gemma4-E4B does not work in Ollama (Version 0.30.9 and later),closed,2026-06-18T03:05:23Z,2026-06-18T06:24:34Z,0,bug,RaymentLiang
+ollama/ollama,16792,v0.30.x Non-thinking / instruct model variants starts to think,closed,2026-06-18T02:55:32Z,2026-06-24T20:43:58Z,5,bug,Cerlancism
+ollama/ollama,16787,Ollama ROCm: llama-server hangs during model load and eventually times out with Qwen3.6 MTP and Gemma 4 QAT models on RX 7900 XTX,closed,2026-06-17T18:12:52Z,2026-06-29T21:46:16Z,5,bug,abauman97
+ollama/ollama,16785,'ollama run xx > some-file' should fail instead of writing terminal sequences into the file,open,2026-06-17T16:14:07Z,,1,bug,yurivict
+ollama/ollama,16784,"'ollama run gemma4:31b' fails: Failed to load CLIP model from ... error loading model: done_getting_tensors: wrong number of tensors; expected 1189, got 833",open,2026-06-17T16:11:12Z,,5,"bug, needs more info",yurivict
+ollama/ollama,16783,install.sh is very inflexible and buggy,open,2026-06-17T15:56:13Z,,2,bug,yurivict
+ollama/ollama,16782,It's completely unusable after upgrading to 0.30.9.,closed,2026-06-17T13:04:42Z,2026-06-18T01:49:38Z,11,bug,JackyChan
+ollama/ollama,16781,"Is it possible to use ""apples trick"" with ollama",open,2026-06-17T11:23:35Z,,0,,lhpitn
+ollama/ollama,16780,"qwen3.5:35b-a3b-coding-nvfp4: empty content, answer in reasoning via /v1/chat/completions",closed,2026-06-17T09:38:55Z,2026-06-18T06:47:12Z,2,bug,kneussmichael
+ollama/ollama,16779,glm-5.2: the cloud model responds too slowly,closed,2026-06-17T08:45:00Z,2026-07-02T10:27:28Z,3,"bug, performance, cloud",Weijunbin
+ollama/ollama,16778,Tray icon Settings action no response on Windows Server 2022 Standard,open,2026-06-17T07:45:27Z,,0,,dtiosd
+ollama/ollama,16777,MLX runner: tool calling produces degenerate output / no tool_calls (regression in 0.30.9),closed,2026-06-17T07:08:18Z,2026-06-17T22:41:31Z,8,,mazhewitt
+ollama/ollama,16776,gemma4 MLX runner ignores JSON Schema `format` in /api/chat (structured outputs not enforced),closed,2026-06-17T06:55:45Z,2026-06-18T02:06:17Z,1,bug,SaharatM864
+ollama/ollama,16774,v0.30.* : ollama server keeps crashing for every model on GH200,closed,2026-06-17T03:30:02Z,2026-06-26T16:51:06Z,5,bug,xuancong84
+ollama/ollama,16773,Is there a way to see if a model will return a 403 error when using a free plan?,open,2026-06-17T02:07:44Z,,2,feature request,1TSnakers
+ollama/ollama,16771,"error on pop os cosmic, amd 6700xt",closed,2026-06-16T22:27:55Z,2026-07-02T20:34:49Z,4,bug,ingjavierjara
+ollama/ollama,16763,Ollama PS reports incorrect size for gemma4:31b-it-q4_K_M,closed,2026-06-16T15:34:21Z,2026-06-16T23:16:36Z,0,bug,MarkWard0110
+ollama/ollama,16762,[Feature Request] Community Project Showcase - Exam AI Tutoring System,closed,2026-06-16T11:27:49Z,2026-06-16T13:58:41Z,1,,1036007003-wq
+ollama/ollama,16761,Enable OPTIONS /v1/models to support Claude for Microsoft Office,open,2026-06-16T10:22:10Z,,0,feature request,MartinKuhl
+ollama/ollama,16759,gpt-oss:20b-cloud returns empty responses,closed,2026-06-16T05:28:50Z,2026-06-16T06:25:28Z,1,bug,mczupr
+ollama/ollama,16754,Catastrophic performance regression since v0.30.x (up to 1300% slower than v0.24),closed,2026-06-15T21:17:21Z,2026-07-03T00:11:41Z,7,,MulleDK19
+ollama/ollama,16752,ollama ps command reports incorrect size & some models do not load anymore,open,2026-06-15T20:33:05Z,,2,bug,backwindj
+ollama/ollama,16749,"Images are ""blank white space"" to gemma4",closed,2026-06-15T16:12:49Z,2026-06-15T16:20:14Z,0,bug,rvmey
+ollama/ollama,16747,For closed systems,closed,2026-06-15T13:30:57Z,2026-06-15T14:42:58Z,2,feature request,zorroMasked
+ollama/ollama,16746,Ollama device selection,open,2026-06-15T11:35:25Z,,0,bug,rekettyemaker
+ollama/ollama,16740,"x/mlxrunner: gemma-4 MLX models fail to load or decode (quant, KV-sharing, BOS)",open,2026-06-15T10:29:21Z,,0,,kinqsradio
+ollama/ollama,16739,Hardcoded 2 minute timeout when loading models,closed,2026-06-15T09:53:48Z,2026-06-17T21:01:04Z,4,,hsanjuan
+ollama/ollama,16734,qwen3.5:122b crashes with 0xc0000409 on Strix Halo + Adrenalin 32.0.31019,open,2026-06-15T05:47:25Z,,1,,TenshuA
+ggerganov/llama.cpp,25295,Eval bug: llama_state_seq_get/set_data does not match when SWA models past n_swa (save/load state loses sliding-window KV),open,2026-07-04T08:52:08Z,,0,bug-unconfirmed,letruongthanh3698
+ggerganov/llama.cpp,25293,[Docs] --ubatch-size behavior in --embeddings mode (pooling) is undocumented — causes silent 500 errors,open,2026-07-04T04:37:09Z,,0,,wyl1988
+ggerganov/llama.cpp,25292,Eval bug: VibeThinker 3B showing think tags,open,2026-07-04T01:38:51Z,,0,bug-unconfirmed,seadra
+ggerganov/llama.cpp,25290,Misc. bug: Networking-related 400 rejections,open,2026-07-03T20:55:41Z,,0,bug-unconfirmed,jhughes2112
+ggerganov/llama.cpp,25289,ggml-rpc: remote unauthenticated controlled indirect call via a deserialized function pointer in deserialize_tensor() (GGML_OP_CUSTOM op_params),open,2026-07-03T20:08:01Z,,0,,professor-moody
+ggerganov/llama.cpp,25288,Remote unauthenticated DoS in ggml-rpc deserialize_tensor(): unvalidated tensor ne[0] aborts the server (SIGABRT),open,2026-07-03T19:49:47Z,,0,,professor-moody
+ggerganov/llama.cpp,25287,Remote unauthenticated DoS in ggml-rpc recv_msg(): unbounded resize() throws std::length_error (uncaught) -> terminate,open,2026-07-03T19:49:46Z,,0,,professor-moody
+ggerganov/llama.cpp,25286,SYCL backend: UR_RESULT_ERROR_DEVICE_LOST + OUT_OF_DEVICE_MEMORY on dual Intel Arc B70 Pro (Battlemage),open,2026-07-03T19:37:23Z,,2,,chmihimabb-max
+ggerganov/llama.cpp,25285,Eval bug: failed to tokenize error if contents of /props appears in prompt.,open,2026-07-03T19:27:35Z,,0,bug-unconfirmed,cphlipot
+ggerganov/llama.cpp,25284,NULL-pointer dereference in JSON-Schema regex/pattern handling during grammar construction,open,2026-07-03T19:18:55Z,,0,,professor-moody
+ggerganov/llama.cpp,25283,Stack overflow (uncontrolled recursion) in JSON-Schema-to-GBNF conversion on a deeply nested schema,open,2026-07-03T19:18:55Z,,0,,professor-moody
+ggerganov/llama.cpp,25282,Reachable assertion / abort in the Jinja (minja) filter parser on a malformed filter expression,open,2026-07-03T19:18:54Z,,0,,professor-moody
+ggerganov/llama.cpp,25281,Out-of-bounds read in regex_to_reversed_partial_regex() on a trailing backslash in a character class,open,2026-07-03T19:18:53Z,,0,,professor-moody
+ggerganov/llama.cpp,25279,Misc. bug: Releases are not created for UI only PRs,open,2026-07-03T18:03:14Z,,0,bug-unconfirmed,TheAIBot
+ggerganov/llama.cpp,25275,"Misc. bug: CI ubuntu-llvmpipe, intermittent `SIGILL` in all tokenizer tests(cross-host ccache reuse of `-march=native` objects?)",open,2026-07-03T16:52:01Z,,0,bug-unconfirmed,hellopahe
+ggerganov/llama.cpp,25274,"Feature Request: Remove MCP ""Popup""",open,2026-07-03T16:40:14Z,,1,enhancement,ascotai
+ggerganov/llama.cpp,25270,"CUDA supports_op returns false positives for non-CUDA GPU buffers, causing cross-backend weight duplication with GGML_BACKEND_DL",open,2026-07-03T13:02:27Z,,2,bug-unconfirmed,Fringe210
+ggerganov/llama.cpp,25269,Mobilellm r1 running problem,open,2026-07-03T12:49:30Z,,0,bug-unconfirmed,hauserdew-ui
+ggerganov/llama.cpp,25259,Eval bug: DeepSeek V4 Flash forgot context when hit cache or use checkpoint in long context,open,2026-07-03T06:14:52Z,,9,bug-unconfirmed,wenyifancc
+ggerganov/llama.cpp,25257,Feature Request: SSD streaming of MoE routed expert weights (run MoE models larger than system RAM),open,2026-07-03T06:01:52Z,,0,enhancement,freedomljc
+ggerganov/llama.cpp,25254,Misc. bug: Thinking tags before tool call cause cache miss on third request,closed,2026-07-03T03:43:29Z,2026-07-04T07:02:14Z,1,bug-unconfirmed,sunhy0316
+ggerganov/llama.cpp,25253,New start,open,2026-07-03T02:00:27Z,,1,,PCorpCProNova
+ggerganov/llama.cpp,25252,"Feature Request: Add chat UX parity flags to llama-mtmd-cli (reasoning, template, IO and display controls)",open,2026-07-03T00:34:34Z,,0,enhancement,CaioLimaViana
+ggerganov/llama.cpp,25251,Community eval datasets,closed,2026-07-02T23:48:53Z,2026-07-03T04:11:27Z,1,,connerlambden
+ggerganov/llama.cpp,25250,"metal : small-batch mul_mat is compute-bound between the mv_ext and mm paths (bs 4..16), ~2x headroom; affects speculative decoding",open,2026-07-02T23:35:52Z,,0,enhancement,discobot
+ggerganov/llama.cpp,25248,Eval bug: Qwen 3.6 crashes llama-server with prompts more than 132 tokens,open,2026-07-02T20:12:21Z,,3,bug-unconfirmed,samteezy
+ggerganov/llama.cpp,25227,webui: model selector — org-less models visually attach to the previous org group,open,2026-07-02T08:10:54Z,,0,,erusev
+ggerganov/llama.cpp,25224,Eval bug: MoE models: regression in auto-fit layer allocation on 8GB VRAM after #24180 (granularity rounded to 128),open,2026-07-02T06:46:25Z,,3,bug-unconfirmed,chahualao
+ggerganov/llama.cpp,25221,Misc. bug: Overflow warning when quantizing separated MTP head to Q8_0 for Qwen3.6-35B-A3B,open,2026-07-02T05:46:36Z,,0,bug-unconfirmed,congson1293
+ggerganov/llama.cpp,25213,Misc. bug: Substantial prefill speed regression when resuming long session from a coding agent,open,2026-07-01T20:43:24Z,,2,bug-unconfirmed,pinkfluid
+ggerganov/llama.cpp,25211,Misc. bug: llama web ui failing mcp tool calls in router mode,closed,2026-07-01T20:38:13Z,2026-07-02T17:29:34Z,2,bug-unconfirmed,rondreas
+ggerganov/llama.cpp,25210,"Misc. bug: (OpenAI compat) unsupported ""dimensions"" parameter in embeddings endpoint",open,2026-07-01T20:32:22Z,,0,bug-unconfirmed,Irelynx
+ggerganov/llama.cpp,25208,Misc. bug: gibberish message on model loading: probably loading.html is served with missing content encoding,open,2026-07-01T19:38:48Z,,0,bug-unconfirmed,zooma-e-migliora
+ggerganov/llama.cpp,25207,Eval bug: Unexpected massive performace drop with Vulkan Flash Attention,open,2026-07-01T19:35:32Z,,11,bug-unconfirmed,ddpasa
+ggerganov/llama.cpp,25204,Trojan:Win32/Wacatac.H!ml,closed,2026-07-01T14:41:35Z,2026-07-01T17:40:21Z,4,,Farzadlatifeh
+ggerganov/llama.cpp,25203,Misc. bug: [SYCL] Q8_0 reorder degrades 42% prefill performance (not visible in the standard llama-bench),open,2026-07-01T13:18:23Z,,3,bug-unconfirmed,hmscider
+ggerganov/llama.cpp,25200,Eval bug: llama-server tools using utf8 for a filename instead of cp866 for windows.,open,2026-07-01T12:24:08Z,,1,bug-unconfirmed,newillusion
+ggerganov/llama.cpp,25195,"Vulkan: async transfer-queue WAW on streamed MoE expert weights crashes on amdvlk (partial offload, long context)",open,2026-07-01T08:03:19Z,,0,,liminfei-amd
+ggerganov/llama.cpp,25193,Codex latest MCP compatibility: preserve namespace tools in Responses -> Chat Completions conversion,open,2026-07-01T07:08:17Z,,0,,xiaomangold
+ggerganov/llama.cpp,25191,Eval bug: DFlash Speculative Decoding Crash: GGML_ASSERT(buffer) Failure,closed,2026-07-01T05:52:32Z,2026-07-03T19:46:14Z,6,bug-unconfirmed,bestbug456
+ggerganov/llama.cpp,25187,Research: FR-Spec-style draft-vocab trimming for native MTP speculative decoding,open,2026-07-01T00:33:54Z,,0,,avifenesh
+ggerganov/llama.cpp,25181,Misc. bug: Model with safetensors does not load anymore. Regression after : #24980,closed,2026-06-30T18:50:59Z,2026-07-01T16:33:02Z,0,bug-unconfirmed,adrianhoehne
+ggerganov/llama.cpp,25178,Feature Request: allreduce implementation for HIP,closed,2026-06-30T18:22:01Z,2026-07-01T17:27:54Z,1,enhancement,jasonackman
+ggerganov/llama.cpp,25171,Eval bug: Deepseek V4 Flash forgets everything,open,2026-06-30T13:06:24Z,,4,bug-unconfirmed,EugeoSynthesisThirtyTwo
+ggerganov/llama.cpp,25169,"Misc. bug: When uploading more than 3 files at once, some files are lost.",open,2026-06-30T11:09:59Z,,0,bug-unconfirmed,Harling
+ggerganov/llama.cpp,25162,Performance regression on Turing GPUs after 9e58d4d69 — Qwen35 SSM kernels affected,open,2026-06-30T08:16:58Z,,2,,wfycv
+ggerganov/llama.cpp,25158,"Misc. bug: ui: ""Stream connection lost and could not be resumed"" with slow models after 1a87dcdc",closed,2026-06-30T05:57:47Z,2026-07-03T10:47:06Z,27,bug,sdroege
+ggerganov/llama.cpp,25156,Misc. bug: GBNF parser rejects | at start of continuation line in top-level rule alternatives,open,2026-06-30T02:19:04Z,,0,bug-unconfirmed,robenglander
+ggerganov/llama.cpp,25150,Misc. bug: preset names changed and some presets ignored,open,2026-06-29T22:42:15Z,,7,bug-unconfirmed,cesarb
+ggerganov/llama.cpp,25146,Misc. bug: DS4 performance with cuda+vulkan,open,2026-06-29T19:27:05Z,,3,bug-unconfirmed,Fringe210
+ggerganov/llama.cpp,25145,"Misc. bug: CUDA OOM error when trying to load model entirely on CPU with ""-dev none""",open,2026-06-29T19:23:16Z,,0,bug-unconfirmed,cphlipot
+ggerganov/llama.cpp,25142,Eval bug: Windows Vulkan backend on Intel Arc A770 can hang system under llama-server parallel translation workload,open,2026-06-29T18:14:36Z,,0,bug-unconfirmed,wqmeng
+ggerganov/llama.cpp,25139,CMP 100HX: compile-time MMQ chunk size fix restores PP in hybrid multi-GPU setups (+57% on dense models),open,2026-06-29T16:31:41Z,,0,,jmuffins
+ggerganov/llama.cpp,25135,Misc. bug: log says `http://::1:8080` instead of `http://[::1]:8080`,closed,2026-06-29T15:07:20Z,2026-06-30T14:16:45Z,1,bug-unconfirmed,mutativesystems
+ggerganov/llama.cpp,25129,"Eval bug: MTP breaks multimodality in StepFun Step-3.7-Flash ""inconsistent sequence positions"", ""failed to process speculative batch""",open,2026-06-29T10:36:56Z,,2,bug,vbooka1
+ggerganov/llama.cpp,25128,Misc. bug: /metrics regressed to not resetting bucket counter,open,2026-06-29T10:21:13Z,,0,bug-unconfirmed,nicois
+ggerganov/llama.cpp,25127,Misc. bug: SIGSEGV when initializing mtmd/clip with Vulkan on Adreno 730 (Android),open,2026-06-29T10:09:30Z,,0,bug-unconfirmed,Lu411-user
+ggerganov/llama.cpp,25126,Eval bug: llama-server hangs indefinitely during fitting params to device memory,open,2026-06-29T10:09:21Z,,1,bug-unconfirmed,cannguyen275
+ggerganov/llama.cpp,25121,Misc. bug: Different Speed Llama-bench vs Lllama-server,open,2026-06-29T04:35:48Z,,3,bug-unconfirmed,engrtipusultan
+ggerganov/llama.cpp,25117,DFlash performance regression on AMD APU + quantized MoE target: ~2x slower than baseline,open,2026-06-29T03:53:29Z,,5,,jerrydong1988
+ggerganov/llama.cpp,25116,Eval bug: QWEN3.6 27b DFlash draft model fails to load,closed,2026-06-29T03:00:44Z,2026-06-29T11:42:32Z,2,bug-unconfirmed,waldirsp11
+ggerganov/llama.cpp,25111,"regex_to_reversed_partial_regex: size_t underflow on empty alternative (e.g. ""a|"") causes OOM/hang",closed,2026-06-28T21:10:42Z,2026-06-29T06:48:41Z,1,,Osamaali313
+ggerganov/llama.cpp,25109,Research: BGE-M3 multi head support available,open,2026-06-28T17:20:38Z,,0,research 🔬,iz0eyj
+ggerganov/llama.cpp,25106,Eval bug: probe_sp.stop() hangs on Windows,open,2026-06-28T15:44:24Z,,0,bug-unconfirmed,JiraiyaZR
+ggerganov/llama.cpp,25102,"Hexagon (HTP) multi-device split produces garbage output for gemma-4-12B (Windows on Snapdragon, v73)",open,2026-06-28T13:57:42Z,,0,bug-unconfirmed,zhouzengming
+ggerganov/llama.cpp,25099,Misc. bug: runtime warning requests issue to be raised,open,2026-06-28T12:10:05Z,,0,bug-unconfirmed,gordan-bobic
+ggerganov/llama.cpp,25097,Misc. bug: tg in webui viewing in phone is consistently 10% higher than webui in desktop,open,2026-06-28T10:27:59Z,,3,bug-unconfirmed,Jikilan
+ggerganov/llama.cpp,25096,Feature Request: DSpark confidence-scheduled verification & semi-autoregressive drafting,open,2026-06-28T09:56:45Z,,7,enhancement,gangula-karthik
+ggerganov/llama.cpp,25095,Eval bug: ggml_cuda_compute_forward: SOFT_MAX failed 0.11.348.725 E CUDA error: invalid argument,open,2026-06-28T09:45:37Z,,0,bug-unconfirmed,freemanliu
+ggerganov/llama.cpp,25094,Misc. bug: webui window for editing system message is limited to only 2 lines,open,2026-06-28T09:12:26Z,,0,bug-unconfirmed,kke12
+ggerganov/llama.cpp,25088,Eval bug: Qwen3-VL image embedding doesn't work,open,2026-06-28T02:02:11Z,,4,bug-unconfirmed,lilydjwg
+ggerganov/llama.cpp,25083,Feature Request: Add a docker target for the llama app,closed,2026-06-27T19:33:42Z,2026-06-29T12:33:05Z,2,enhancement,kannon92
+ggerganov/llama.cpp,25082,HIP/ROCm: system RAM grows unbounded with parallel slots due to CUDA graph cache never being evicted,open,2026-06-27T17:20:15Z,,0,,lukascechovic
+ggerganov/llama.cpp,25080,"Eval bug: dense ~30B model fails with ""Not enough memory for command submission"" on gfx1150 (Strix Point) despite ample free VRAM",closed,2026-06-27T15:03:52Z,2026-06-27T15:24:47Z,1,bug-unconfirmed,jacogro13
+ggerganov/llama.cpp,25072,"Eval bug: Gemma 4 tool calling fails with ""The model produced output that does not match the expected peg-gemma4 format""",open,2026-06-27T03:31:32Z,,5,bug-unconfirmed,DanielBMann9000
+ggerganov/llama.cpp,25067,"Eval bug: Premature ""reasoning-budget: deactivated (natural end)"", even BEFORE prompt processing",open,2026-06-26T23:06:03Z,,0,bug-unconfirmed,ross-rosario
+ggerganov/llama.cpp,25066,Feature Request: Router mode - Do not reload model files if they are already loaded.,open,2026-06-26T21:23:01Z,,2,enhancement,mcr-ksh
+ggerganov/llama.cpp,25062,"50% loss in Prefill Speed on Multiple AMD ISAs, Build 9820",closed,2026-06-26T18:00:36Z,2026-06-30T00:41:46Z,7,,DEV-DUFORD
+ggerganov/llama.cpp,25061,Eval bug: CUDA error: unsupported value or parameter in cublasSgemm_v2 during large context processing,open,2026-06-26T17:43:58Z,,7,bug-unconfirmed,rbenrax
+ggerganov/llama.cpp,25060,Misc. bug: Blackwell GGML-CUDA SOFT_MAX Crash,open,2026-06-26T17:37:43Z,,1,bug-unconfirmed,giveen
+ggerganov/llama.cpp,25059,Server SIGABRT: GGML_ASSERT(n_prefix_media <= files.size()) when /props media_marker appears in conversation history (text-only models),open,2026-06-26T16:52:24Z,,0,,likerage
+ggerganov/llama.cpp,25055,Misc. bug: pressing stop while model is reasoning in webui breaks send button and doesn't stop generation,closed,2026-06-26T14:00:13Z,2026-06-28T19:06:45Z,11,bug,zazarpro
+ggerganov/llama.cpp,25046,Compile bug: ifstream import missing from common.h,open,2026-06-26T11:35:32Z,,0,bug-unconfirmed,dylanrees-arm
+ggerganov/llama.cpp,25040,Eval bug:,open,2026-06-26T10:18:26Z,,0,bug-unconfirmed,jtl996
+ggerganov/llama.cpp,25038,Compile bug: cublasSgemmBatched alias is missing for HIP,closed,2026-06-26T09:44:37Z,2026-06-26T09:48:01Z,1,bug-unconfirmed,grivera64
+ggerganov/llama.cpp,25030,Feature Request: add builds for arm64 windows with CUDA,open,2026-06-26T06:29:51Z,,3,enhancement,larroy
+ggerganov/llama.cpp,25027,Misc. bug: ggml Vulkan op_step vs CPU ggml_step mismatch at x==0,closed,2026-06-26T02:40:30Z,2026-06-27T08:57:32Z,2,"bug, Vulkan",filthyrake
+ggerganov/llama.cpp,25026,Misc. bug:,open,2026-06-26T01:41:40Z,,0,bug-unconfirmed,Zurry59
+ggerganov/llama.cpp,25023,Checkpoint erasure during normal conversation flow due to is_last_user_message bypass of checkpoint_min_step,open,2026-06-25T22:54:21Z,,0,,corrm
+ggerganov/llama.cpp,25020,Feature Request: show which quantisation is loaded by default when running a model,open,2026-06-25T21:31:53Z,,0,enhancement,jchwenger
+ggerganov/llama.cpp,25017,[SYCL]: Heterogeneous GPU compatibility for --split-mode tensor,open,2026-06-25T18:21:07Z,,2,bug-unconfirmed,DDXDB
+ggerganov/llama.cpp,25015,Misc. bug: backend sampling has to be explicitly enabled in server ui even when specified via cli,open,2026-06-25T17:33:10Z,,1,bug-unconfirmed,ORippler
+ggerganov/llama.cpp,25009,Feature Request: Supports Unlimited-OCR,closed,2026-06-25T14:40:55Z,2026-06-26T03:50:51Z,1,enhancement,Leroy-X
+ggerganov/llama.cpp,25007,Misc. bug: Inconsistent Flash Attention auto mode in llama-bench,open,2026-06-25T13:26:04Z,,6,bug-unconfirmed,Only8Bits
+ggerganov/llama.cpp,25003,When started with --tools all the WebUI exposes the inference server filesystem not the client,open,2026-06-25T12:23:26Z,,6,bug-unconfirmed,nnnarvaez
+ggerganov/llama.cpp,24999,CUDA error: the requested functionality is not supported,open,2026-06-25T09:55:25Z,,0,bug-unconfirmed,99991
+ggerganov/llama.cpp,24996,Compile bug:  SYCL error: CHECK_TRY_ERROR,closed,2026-06-25T08:19:31Z,2026-06-27T10:15:29Z,4,bug-unconfirmed,HP-L
+ggerganov/llama.cpp,24993,Misc. bug: sidebar don't show always,open,2026-06-25T04:57:54Z,,0,bug-unconfirmed,jackyzhangjun
+ggerganov/llama.cpp,24992,Misc. bug: Tools doesn't work in WebUI when running in router mode,open,2026-06-25T02:28:29Z,,2,bug-unconfirmed,SlavikCA
+ggerganov/llama.cpp,24983,Eval bug: Repeatable Crashes when an image and a large prompt is pasted or loaded as file.,open,2026-06-24T19:54:26Z,,4,bug-unconfirmed,KevinFleischer
+ggerganov/llama.cpp,24978,"Misc. bug: custom Jinja template + --skip-chat-parsing regression after #24176 (gemma4 delimiter changes), b9771",closed,2026-06-24T16:21:07Z,2026-06-26T13:41:45Z,2,bug-unconfirmed,Clarck1
+ggerganov/llama.cpp,24967,Eval bug: GGML_ASSERT(n_outputs_max <= cparams.n_outputs_max) failed,open,2026-06-24T08:16:28Z,,1,bug-unconfirmed,Lyaaaaaaaaaaaaaaa
+huggingface/transformers,47059,tests/cli fail with huggingface_hub 1.22.0: 'HFCliTyperGroup' object has no attribute '_add_completion':,open,2026-07-04T08:56:14Z,,1,bug,Madhav-000-s
+huggingface/transformers,47053,[serge] integration failure triage - 2026-07-04,open,2026-07-04T07:33:00Z,,0,,github-actions[bot]
+huggingface/transformers,47050,`CanineModel` fp16 ONNX export fails on CUDA with dtype mismatch in attention: `expected scalar type Float but found Half`,open,2026-07-04T03:12:04Z,,0,bug,sgpublic
+huggingface/transformers,47049,[serge] integration failure triage - 2026-07-03,open,2026-07-04T00:30:38Z,,0,,github-actions[bot]
+huggingface/transformers,47039,GenerationConfig serializes ContinuousBatchingConfig as null,open,2026-07-03T09:48:39Z,,1,,VectorPeak
+huggingface/transformers,47037,[serge] integration failure triage - 2026-07-02,open,2026-07-03T00:31:21Z,,5,,github-actions[bot]
+huggingface/transformers,47036,Community benchmark tip,closed,2026-07-02T23:48:33Z,2026-07-03T04:11:30Z,1,,connerlambden
+huggingface/transformers,47031,"Checkpoint conversion silently loads transposed fused-expert weights when the swapped dims are equal (Transpose(check_dims=True), qwen3_vl_moe)",open,2026-07-02T22:14:35Z,,2,,pjordanandrsn
+huggingface/transformers,47030,FineGrainedFP8 DeepGEMM path returns silently wrong results on SM100 (UE8M0 scale rounding without requantization),open,2026-07-02T21:54:50Z,,1,,keunhong
+huggingface/transformers,47020,XLMRobertaTokenizer.__init__ passes dict to Unigram(vocab=...) expecting a Sequence,open,2026-07-02T08:54:20Z,,1,,saattrupdan
+huggingface/transformers,47015,Novel Application of Transformers: AI-Automated Cybersecurity Vulnerability Discovery System,closed,2026-07-02T03:22:07Z,2026-07-02T11:44:42Z,0,Code agent slop,Exploit-Garbage
+huggingface/transformers,47013,"[xLSTM] Crash in train mode with return_last_states=False: backend returns bare tensor but xLSTMLayer always unpacks (h, state)",open,2026-07-01T21:42:33Z,,2,,Heatdh
+huggingface/transformers,47007,Building AI-Automated Vulnerability Discovery Systems - Lessons from Using Advanced LLMs,closed,2026-07-01T17:22:52Z,2026-07-02T11:35:14Z,0,,Exploit-Garbage
+huggingface/transformers,47004,Add LoMa keypoint detector & matcher,open,2026-07-01T15:15:57Z,,3,New model,tcourat
+huggingface/transformers,47000,"RTDetrLoss crashing with ""ValueError: cost matrix is infeasible""",open,2026-07-01T12:45:17Z,,6,bug,m-matthias
+huggingface/transformers,46998,[serge] integration failure triage - 2026-07-01,open,2026-07-01T12:03:11Z,,0,,github-actions[bot]
+huggingface/transformers,46996,Reporting a vulnerability,closed,2026-07-01T10:19:42Z,2026-07-01T10:27:55Z,1,,Eti-Hack
+huggingface/transformers,46985,[serge] integration failure triage - 2026-06-30,open,2026-07-01T00:38:22Z,,0,,github-actions[bot]
+huggingface/transformers,46984,Add RWKV7 model support,open,2026-06-30T21:45:42Z,,1,New model,chinoll
+huggingface/transformers,46983,Add RWKV7 model support,closed,2026-06-30T21:43:21Z,2026-06-30T21:44:14Z,0,Feature request,chinoll
+huggingface/transformers,46981,AutoProcessor.from_pretrained retries HTTP 429 responses multiple times for every config file when using HF_ENDPOINT,open,2026-06-30T14:27:18Z,,2,bug,peacefulotter
+huggingface/transformers,46969,[serge] integration failure triage - 2026-06-29,open,2026-06-30T00:36:50Z,,0,,github-actions[bot]
+huggingface/transformers,46967,Add AstroCLIP model support,closed,2026-06-29T20:45:32Z,2026-07-02T11:54:54Z,5,,giovannicozzolongo
+huggingface/transformers,46962,[Qwen3] `create_masks_for_generate` return type change after #41251,open,2026-06-29T15:03:41Z,,8,bug,hoshibara
+huggingface/transformers,46948,[serge] integration failure triage - 2026-06-28,open,2026-06-29T00:38:07Z,,1,,github-actions[bot]
+huggingface/transformers,46940,[serge] integration failure triage - 2026-06-27,open,2026-06-28T00:36:29Z,,0,,github-actions[bot]
+huggingface/transformers,46932,[Gemma4] Fix dtype casting for quantized vision/audio embedders (same as #46904),closed,2026-06-27T12:12:13Z,2026-07-03T12:21:54Z,1,bug,sharmax-vikas
+huggingface/transformers,46931,ตัวจัดการบัญชีสำหรับ L. CHOMPHUPHUEN.io,closed,2026-06-27T09:22:49Z,2026-06-27T15:05:39Z,1,WIP,imgoingbacktheonlything239-ops
+huggingface/transformers,46909,broken documentation example for DIA,closed,2026-06-26T08:12:30Z,2026-06-26T18:01:27Z,3,bug,Carotterap
+huggingface/transformers,46906,[serge] integration failure triage - 2026-06-26,open,2026-06-26T07:52:15Z,,1,,github-actions[bot]
+huggingface/transformers,46901,"PPFormulaNet training-loss double-shift: trains against labels[..., 1:] instead of labels",open,2026-06-26T02:23:31Z,,0,,OmkumarSolanki
+huggingface/transformers,46899,[Gemma4] Audio (and vision) processing broken with 4‑bit quantization due to unsafe dtype cast in multimodal embedders,closed,2026-06-25T19:40:51Z,2026-06-26T13:09:35Z,2,bug,dukei
+huggingface/transformers,46897,Florence2 training-loss double-shift bug (same pattern as Moonshine #46784),closed,2026-06-25T19:24:39Z,2026-06-29T10:51:17Z,0,bug,sharmax-vikas
+huggingface/transformers,46894,CohereASR training-loss double-shift bug (same pattern as Moonshine #46784),open,2026-06-25T18:29:52Z,,0,bug,sharmax-vikas
+huggingface/transformers,46877,auto_docstring prints [ERROR] doc-lint diagnostics to stdout at import time,closed,2026-06-25T08:49:25Z,2026-06-25T14:56:10Z,2,bug,CalamitousFelicitousness
+huggingface/transformers,46869,YOLO model failing on multi GPU device map auto,open,2026-06-24T16:25:08Z,,2,bug,Carotterap
+huggingface/transformers,46868,Sequence Parallelism Disabled for Evaluation,open,2026-06-24T15:34:17Z,,1,,amanichopra
+huggingface/transformers,46858,"_prefill: cache.get_seq_length() returns device tensor, breaks slice arithmetic for static cache + torch.compile on non-CUDA backends",closed,2026-06-24T06:33:39Z,2026-06-25T12:42:34Z,6,"bug, Code agent slop",silicon-dispatch-100
+huggingface/transformers,46851,Qwen3.5 Does not work with variable length inputs using position_ids,closed,2026-06-23T17:34:46Z,2026-06-24T16:20:46Z,8,bug,kolehma8
+huggingface/transformers,46846,[Qwen3.5] Missing `linear_attn` entries in `base_model_tp_plan` causes OOM and shape error at TP>1,closed,2026-06-23T13:29:27Z,2026-07-03T13:59:02Z,4,bug,tengomucho
+huggingface/transformers,46832,[RT-DETR] TypeError in RTDetrModel.forward when num_feature_levels > len(backbone outputs),closed,2026-06-23T06:34:53Z,2026-06-29T12:22:50Z,2,bug,c1prk
+huggingface/transformers,46829,[Bug] VideoPrismForVideoClassification returns last_hidden_state tensor as hidden_states in ImageClassifierOutput,closed,2026-06-23T04:40:35Z,2026-06-23T12:39:42Z,0,bug,sharmax-vikas
+huggingface/transformers,46823,4-bit load_in_4bit + device_map='auto' + explicit max_memory still dispatches modules to CPU on a model that fits -> ValueError,open,2026-06-22T17:52:44Z,,1,,trevorgordon981
+huggingface/transformers,46822,ZeRO-3 zero.Init does not partition composite minimax_m3_vl language submodule -> OOM on multi-GPU load,open,2026-06-22T17:52:42Z,,4,bug,trevorgordon981
+huggingface/transformers,46821,[TimesFM 2.5]:`window_size` argument raises `AttributeError`,open,2026-06-22T17:14:08Z,,0,bug,kanenorman
+huggingface/transformers,46785,"Is transformers 5.12.1 requires tokenizers<=0.23.0,>=0.22.0 really right?",open,2026-06-20T17:59:46Z,,4,,jrp2014
+huggingface/transformers,46772,Nvidia ModelOpt (NVFP4) compatibility for DiffusionGemma,closed,2026-06-19T15:33:18Z,2026-06-19T16:12:00Z,1,Feature request,ppabis
+run-llama/llama_index,22241,[Feature Request]: enable auth with bedrock token for anthropic aws sdk,open,2026-07-03T14:42:59Z,,0,"enhancement, triage",RiccardoRubini
+run-llama/llama_index,22240,RAG/eval dataset tip,closed,2026-07-02T23:48:41Z,2026-07-02T23:53:40Z,0,,connerlambden
+run-llama/llama_index,22238,[Bug]: VoyageEmbedding Failed with no retry,open,2026-07-02T16:45:46Z,,3,"bug, triage",upchunk
+run-llama/llama_index,22233,[Bug]: Resource exhaustion (DoS) vulnerability due to unhandled exceptions in apredict_and_call concurrent tool execution,open,2026-07-02T10:55:18Z,,1,"bug, triage",QiuYucheng2003
+run-llama/llama_index,22232,[Security Vulnerability] Sandbox escape and Arbitrary Code Execution (RCE) via PandasQueryEngine safe_eval,open,2026-07-02T10:34:07Z,,1,"bug, triage",QiuYucheng2003
+run-llama/llama_index,22227,Maritalk streaming corrupts text containing 'data: ' (replace-all of SSE prefix),open,2026-07-02T05:09:36Z,,1,,ritsth
+run-llama/llama_index,22223,"[Bug]: SiliconFlow astream_chat raises JSONDecodeError when streamed content contains ""data: """,open,2026-07-02T00:01:33Z,,1,,ritsth
+run-llama/llama_index,22221,[Bug]: SageMaker LLM streaming silently corrupts generated text (lstrip/rstrip used as affix removal),open,2026-07-01T23:45:57Z,,1,,ritsth
+run-llama/llama_index,22218,"[Bug]: Citation Query Engine Refine Templates are missing ""existing answer"" and ""new answer"" verbiage.",closed,2026-07-01T18:18:36Z,2026-07-01T18:51:22Z,2,"bug, triage",bschloss
+run-llama/llama_index,22216,"[Bug]: Using claude-sonnet-5 throws ""LLM must be a FunctionCallingLLM""",closed,2026-07-01T17:58:15Z,2026-07-01T18:06:13Z,3,"bug, triage",pramodc
+run-llama/llama_index,22214,"feat: Add DakeraVectorStore integration — self-hosted, decay-weighted vector memory",closed,2026-07-01T09:55:40Z,2026-07-01T10:05:21Z,0,,ferhimedamine
+run-llama/llama_index,22209,"[Memory] Add Dakera memory integration — persistent, decay-weighted cross-session memory",open,2026-07-01T07:02:48Z,,2,,ferhimedamine
+run-llama/llama_index,22194,Silent exception swallowing in Property Graph LLM Path Extractors,open,2026-06-30T08:16:36Z,,1,,Om-Borse26
+run-llama/llama_index,22186,Cross-platform collaboration: AgentPub <-> llama_index,closed,2026-06-29T05:20:35Z,2026-06-30T02:21:29Z,0,,liboy119
+run-llama/llama_index,22183,[Bug]: as_query_engine(streaming=True) buffers entire response into a single-item generator when using local LLM,closed,2026-06-28T18:32:04Z,2026-06-28T20:27:54Z,7,"bug, triage",0xfelaback
+run-llama/llama_index,22180,[Bug Report] Custom LLM wrapper in docs has no error handling — crashes on any transient failure,closed,2026-06-28T14:42:54Z,2026-06-30T02:22:19Z,3,,Correctover
+run-llama/llama_index,22178,[Bug]: `str()`/`.response` on async streaming chat response (astream_chat) returns empty string,closed,2026-06-28T14:29:42Z,2026-07-02T02:12:29Z,1,"bug, triage",gautamvarmadatla
+run-llama/llama_index,22176,[Bug]: prompt_helper regression in llama-index-core@0.14.23. does not respect from_llm_metadata,open,2026-06-28T08:50:07Z,,3,"bug, triage",alexmalev
+run-llama/llama_index,22174,Cross-platform collaboration: AgentPub <-> llama_index,open,2026-06-28T06:40:28Z,,0,,liboy119
+run-llama/llama_index,22166,[Bug]: Stopword removal is ineffective in `SemanticDoubleMergingSplitterNodeParser`,closed,2026-06-27T14:23:46Z,2026-07-02T17:53:58Z,1,"bug, triage",rautaditya2606
+run-llama/llama_index,22161,[Feature Request]: Add a documentation/discovery entry for the Talordata SERP LlamaIndex Tools integration.,closed,2026-06-27T06:19:07Z,2026-07-01T09:56:19Z,0,"enhancement, triage",Talordata-serp
+run-llama/llama_index,22160,[Feature Request]: Add a documentation/discovery entry for the Talordata SERP LlamaIndex Tools integration.,closed,2026-06-27T06:15:47Z,2026-06-27T06:16:08Z,0,"enhancement, triage",Talordata-serp
+run-llama/llama_index,22159,[Bug]: FunctionAgent.structured_output_fn is ignored when executed via AgentWorkflow,closed,2026-06-27T03:37:26Z,2026-07-02T15:01:26Z,2,"bug, triage",opsbrown
+run-llama/llama_index,22146,[Bug]: AgentWorkflow stores agents by reference; one BaseTool instance shared across agents leaks per-tool mutations,closed,2026-06-26T01:58:55Z,2026-07-02T02:04:47Z,2,"bug, triage",Fr3ya
+run-llama/llama_index,22141,[Bug]: McpToolSpec.create_model_from_json_schema drops nested inline object properties,open,2026-06-25T12:25:10Z,,3,"bug, triage",schelv
+run-llama/llama_index,22140,[Bug]: Infinite block and thread pool starvation in OneDriveReader due to missing timeout in requests.get(),open,2026-06-25T11:31:58Z,,1,"bug, triage",QiuYucheng2003
+run-llama/llama_index,22134,"[Bug]: Tool schema marks **kwargs as a required (untyped) parameter, forcing the LLM to fill it",closed,2026-06-25T02:40:53Z,2026-07-02T01:54:07Z,3,"bug, triage",gautamvarmadatla
+run-llama/llama_index,22129,[Question]: NoSQL Injection Bug Report On Huntr,closed,2026-06-24T15:07:45Z,2026-06-24T15:30:27Z,0,question,ericblackgachara
+run-llama/llama_index,22128,[Question]: Cypher Injection Bug reports Submitted on Huntr,closed,2026-06-24T14:30:05Z,2026-06-24T14:38:07Z,0,question,ericblackgachara
+run-llama/llama_index,22115,[Bug]: RedisKVStore breaks with decode_responses=True,open,2026-06-24T06:22:45Z,,1,"bug, triage",chas-mafli
+run-llama/llama_index,22101,[Bug] Potential DoS via Unbounded zlib.decompress (Zip Bomb Vulnerability) in Document Parser,open,2026-06-23T14:34:31Z,,1,"bug, triage",QiuYucheng2003
+run-llama/llama_index,22080,[Bug]: AttributeError: 'MultiModalVectorIndexRetriever' object has no attribute 'object_map',open,2026-06-22T07:47:45Z,,1,"bug, triage",dodofung
+run-llama/llama_index,22071,"[Bug]: workflow_as_mcp captures a single Workflow instance, sharing self.* state across every MCP client",open,2026-06-22T02:24:54Z,,0,"bug, triage",Fr3ya
+run-llama/llama_index,22070,"[Bug]: FunctionAgent parallel tool fan-out + ctx.wait_for_event(HumanResponseEvent) collide on a shared waiter_id, hanging all but one branch",closed,2026-06-22T02:15:04Z,2026-06-22T19:38:04Z,0,"bug, triage",Fr3ya
+run-llama/llama_index,22069,[Bug]: ag-ui get_default_workflow_factory shares the initial_state dict across every AGUIChatWorkflow it produces,closed,2026-06-22T01:59:36Z,2026-07-02T15:02:59Z,1,"bug, triage",Fr3ya
+run-llama/llama_index,22068,[Bug]: ag-ui llama_index_message_to_ag_ui_message fabricates uuid4 tool_call_id when additional_kwargs is missing the key,open,2026-06-22T01:33:30Z,,0,"bug, triage",Fr3ya
+run-llama/llama_index,22066,"[Bug]: AGUIChatWorkflow.aggregate_tool_calls only appends ToolMessages for backend tools, orphaning frontend tool_call_ids",open,2026-06-22T01:25:13Z,,1,"bug, triage",Fr3ya
+run-llama/llama_index,22044,[Feature Request]: Add a memory integration for Thrindex (write-time cognition memory layer for agents),closed,2026-06-19T12:54:23Z,2026-06-19T14:21:32Z,0,"enhancement, triage",nomik32
+run-llama/llama_index,22041,"Feature: Mimir as offline, encrypted, single-binary storage backend for LlamaIndex",closed,2026-06-19T04:01:36Z,2026-06-19T04:38:30Z,0,,tcconnally
+run-llama/llama_index,22040,"Docs: add an enterprise agent deployment checklist (security, tracing, rollback)",closed,2026-06-19T03:55:25Z,2026-06-19T04:42:02Z,2,,kmishra1204
+run-llama/llama_index,22032,[Feature Request]: Metadata-aware indexing for heterogeneous financial document RAG — per-source routing and chunk-level type annotations,open,2026-06-17T15:46:15Z,,3,"enhancement, triage",Ruthwik-Data
+run-llama/llama_index,22028,Missing timeout on HTTP requests across 9 integration packages,open,2026-06-17T07:35:52Z,,4,"bug, triage",sharmax-vikas
+run-llama/llama_index,22026,"fix: resource leaks in HuggingFace FS, AlibabaCloud, Stripe Docs, SEC Filings readers and Galaxia retriever",open,2026-06-17T07:07:16Z,,0,"bug, triage",sharmax-vikas
+run-llama/llama_index,21978,Security: TLS verification unconditionally disabled in Minio reader,open,2026-06-14T18:51:26Z,,0,"bug, triage",sharmax-vikas
+run-llama/llama_index,21973,"[Bug]: Resource leaks in Vectara, Replicate, SemanticScholar, and BGE-M3 integrations",open,2026-06-14T08:21:46Z,,0,"bug, triage",sharmax-vikas
+run-llama/llama_index,21970,"[Bug]: Resource leaks in PythonFileToolSpec, CogniSwitch, and Azure Code Interpreter tools",open,2026-06-14T07:28:30Z,,0,"bug, triage",sharmax-vikas
+run-llama/llama_index,21964,Integration idea: BGPT evidence retrieval tool,open,2026-06-14T05:16:23Z,,2,,connerlambden
+run-llama/llama_index,21956,[Bug]: File handles not closed in HotpotQAEvaluator (resource leak),open,2026-06-13T10:27:58Z,,0,"bug, triage",sharmax-vikas
+run-llama/llama_index,21950,"[Bug]: Tool-call tokens not counted by Memory, leading to ""prompt is too long"" (400) errors with AgentWorkflow",open,2026-06-12T22:28:40Z,,1,"bug, triage",gautamvarmadatla
+run-llama/llama_index,21945,[Bug]: llama-index-protocols-ag-ui drops LLM reasoning_content / Responses-API reasoning deltas (no REASONING_MESSAGE_* events),open,2026-06-12T18:51:53Z,,0,,jpr5
+run-llama/llama_index,21940,Feature: Add FunASR/SenseVoice as Audio STT reader (170x faster than Whisper),closed,2026-06-12T09:58:40Z,2026-06-15T09:48:58Z,4,,LauraGPT
+run-llama/llama_index,21934,VertexAISearchRetriever.aretrieve blocks asyncio event loop by calling synchronous _retrieve,open,2026-06-11T23:22:12Z,,1,,glaziermag
+run-llama/llama_index,21933,VertexAISearchRetriever drops document id/name and metadata for structured data store results,open,2026-06-11T22:22:21Z,,1,,glaziermag
