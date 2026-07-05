@@ -1,0 +1,6 @@
+repo_name,bot_commits,human_commits
+ollama/ollama,0,300
+ggerganov/llama.cpp,0,300
+huggingface/transformers,1,299
+run-llama/llama_index,71,229
+langchain-ai/langchain,150,150
