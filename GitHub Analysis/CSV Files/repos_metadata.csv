@@ -1,0 +1,6 @@
+repo_name,stars,forks,open_issues,watchers,language,created_at,last_push,size_kb
+langchain-ai/langchain,140892,23396,423,889,Python,2022-10-17T02:58:36Z,2026-07-01T19:01:46Z,582202
+ollama/ollama,175427,16827,3390,985,Go,2023-06-26T19:39:32Z,2026-07-04T01:30:46Z,89470
+ggml-org/llama.cpp,119201,20205,1850,769,C++,2023-03-10T18:58:00Z,2026-07-03T21:38:29Z,414081
+huggingface/transformers,162219,33748,2469,1221,Python,2018-10-29T13:56:00Z,2026-07-04T07:43:55Z,514192
+run-llama/llama_index,50636,7679,486,281,Python,2022-11-02T04:24:54Z,2026-07-02T17:54:20Z,471513

@@ -1,0 +1,358 @@
+repo_name,author,commit_count
+ggerganov/llama.cpp,Xuan-Son Nguyen,42
+ggerganov/llama.cpp,Pascal,20
+ggerganov/llama.cpp,Georgi Gerganov,20
+ggerganov/llama.cpp,Sigbjørn Skjæret,18
+ggerganov/llama.cpp,Neo Zhang,14
+ggerganov/llama.cpp,Adrien Gallouët,14
+ggerganov/llama.cpp,Jeff Bolz,11
+ggerganov/llama.cpp,Aldehir Rojas,9
+ggerganov/llama.cpp,Ruixiang Wang,8
+ggerganov/llama.cpp,Piotr Wilkin (ilintar),7
+ggerganov/llama.cpp,Aleksander Grygier,7
+ggerganov/llama.cpp,Tarek Dakhran,5
+ggerganov/llama.cpp,Ruben Ortlam,5
+ggerganov/llama.cpp,Masashi Yoshimura,5
+ggerganov/llama.cpp,o7si,4
+ggerganov/llama.cpp,lhez,4
+ggerganov/llama.cpp,Oliver Simons,4
+ggerganov/llama.cpp,Max Krasnyansky,4
+ggerganov/llama.cpp,leonardHONG,3
+ggerganov/llama.cpp,Winston Ma,3
+ggerganov/llama.cpp,Gaurav Garg,3
+ggerganov/llama.cpp,Alessandro de Oliveira Faria (A.K.A.CABELO),3
+ggerganov/llama.cpp,shaofeiqi,2
+ggerganov/llama.cpp,shalinib-ibm,2
+ggerganov/llama.cpp,kononnable,2
+ggerganov/llama.cpp,fairydreaming,2
+ggerganov/llama.cpp,Saba Fallah,2
+ggerganov/llama.cpp,Ravi Panchumarthy,2
+ggerganov/llama.cpp,Nick Towle,2
+ggerganov/llama.cpp,Muhammad Salem,2
+ggerganov/llama.cpp,Michael Wand,2
+ggerganov/llama.cpp,Kevin Liu,2
+ggerganov/llama.cpp,Johannes Gäßler,2
+ggerganov/llama.cpp,Amos Wong,2
+ggerganov/llama.cpp,Alexey Kopytko,2
+ggerganov/llama.cpp,zduford,1
+ggerganov/llama.cpp,wencan,1
+ggerganov/llama.cpp,someoneinjd,1
+ggerganov/llama.cpp,seryogakovalyov,1
+ggerganov/llama.cpp,ravel7524,1
+ggerganov/llama.cpp,ragz4125,1
+ggerganov/llama.cpp,nullname,1
+ggerganov/llama.cpp,liminfei-amd,1
+ggerganov/llama.cpp,jacekpoplawski,1
+ggerganov/llama.cpp,franitel,1
+ggerganov/llama.cpp,fiesh,1
+ggerganov/llama.cpp,ddh0,1
+ggerganov/llama.cpp,davidrhodus,1
+ggerganov/llama.cpp,aafsmarak,1
+ggerganov/llama.cpp,Zijun Yu,1
+ggerganov/llama.cpp,ZihaoMu,1
+ggerganov/llama.cpp,YiChen Lv,1
+ggerganov/llama.cpp,Yash Raj Pandey,1
+ggerganov/llama.cpp,Wyatt Caldwell,1
+ggerganov/llama.cpp,Wagner Bruna,1
+ggerganov/llama.cpp,Todd Malsbary,1
+ggerganov/llama.cpp,Tim Neumann,1
+ggerganov/llama.cpp,Shawn Gu,1
+ggerganov/llama.cpp,Sanjay Ahari,1
+ggerganov/llama.cpp,Rémy Mathieu,1
+ggerganov/llama.cpp,Reguna,1
+ggerganov/llama.cpp,Nicolas Mowen,1
+ggerganov/llama.cpp,Mohammad Athar,1
+ggerganov/llama.cpp,Mikolaj Kucharski,1
+ggerganov/llama.cpp,Matti4,1
+ggerganov/llama.cpp,Matt Thompson,1
+ggerganov/llama.cpp,Matt Jallo,1
+ggerganov/llama.cpp,Mahdiou Diallo,1
+ggerganov/llama.cpp,Katostrofik,1
+ggerganov/llama.cpp,Kashif Rasul,1
+ggerganov/llama.cpp,Kangjia Gao,1
+ggerganov/llama.cpp,Jürgen Schmied,1
+ggerganov/llama.cpp,Julien Jerphanion,1
+ggerganov/llama.cpp,Julien Chaumond,1
+ggerganov/llama.cpp,"Jiang, Fish",1
+ggerganov/llama.cpp,Jassieluo,1
+ggerganov/llama.cpp,Hongqiang Wang,1
+ggerganov/llama.cpp,Harapan Rachman,1
+ggerganov/llama.cpp,Guanhuai Zhang,1
+ggerganov/llama.cpp,Gabe Goodhart,1
+ggerganov/llama.cpp,Frosty40,1
+ggerganov/llama.cpp,Francois Dugast,1
+ggerganov/llama.cpp,Dev-iL,1
+ggerganov/llama.cpp,David Spruill,1
+ggerganov/llama.cpp,Christopher Albert,1
+ggerganov/llama.cpp,Christian Kastner,1
+ggerganov/llama.cpp,Bartowski,1
+ggerganov/llama.cpp,Arsen Arutunan,1
+ggerganov/llama.cpp,Anuj Attri,1
+ggerganov/llama.cpp,Andrei,1
+ggerganov/llama.cpp,Andreas Kieslinger,1
+ggerganov/llama.cpp,Aman Gupta,1
+ggerganov/llama.cpp,Alexander Batischev,1
+ggerganov/llama.cpp,Abraham Gonzalez,1
+ggerganov/llama.cpp,Aarni Koskela,1
+ggerganov/llama.cpp,Aarnav Pai,1
+huggingface/transformers,Yih-Dar,36
+huggingface/transformers,Steven Liu,22
+huggingface/transformers,Raushan Turganbay,20
+huggingface/transformers,Rémi Ouazan,11
+huggingface/transformers,kaixuanliu,10
+huggingface/transformers,Anton Vlasjuk,10
+huggingface/transformers,Cyril Vallez,9
+huggingface/transformers,Tarek Ziade,8
+huggingface/transformers,eustlb,7
+huggingface/transformers,Ting SUN,7
+huggingface/transformers,Ilyas Moutawwakil,7
+huggingface/transformers,jiqing-feng,5
+huggingface/transformers,guarin,5
+huggingface/transformers,Mingi Jeong,5
+huggingface/transformers,Benjamin Bossan,5
+huggingface/transformers,YangKai0616,4
+huggingface/transformers,Vikas Sharma,4
+huggingface/transformers,Harry Mellor,4
+huggingface/transformers,Eric Bezzam,4
+huggingface/transformers,filipinescu,3
+huggingface/transformers,Ziyu Lin,3
+huggingface/transformers,Tai An,3
+huggingface/transformers,Michael Benayoun,3
+huggingface/transformers,Marc Sun,3
+huggingface/transformers,Kyle Sayers,3
+huggingface/transformers,Ita Zaporozhets,3
+huggingface/transformers,Douglas Reid,3
+huggingface/transformers,Arthur,3
+huggingface/transformers,rasmi,2
+huggingface/transformers,"Wang, Yi",2
+huggingface/transformers,Shijin Zhang,2
+huggingface/transformers,Pablo Montalvo,2
+huggingface/transformers,Matt,2
+huggingface/transformers,Luc Georges,2
+huggingface/transformers,Joao Gante,2
+huggingface/transformers,Ishan Katoch,2
+huggingface/transformers,Harshal Janjani,2
+huggingface/transformers,David Corvoysier,2
+huggingface/transformers,Changyi Yang,2
+huggingface/transformers,BADAOUI Abdennacer,2
+huggingface/transformers,瞎瞎子,1
+huggingface/transformers,zhang-prog,1
+huggingface/transformers,trducng,1
+huggingface/transformers,sgerrard,1
+huggingface/transformers,meatybobby,1
+huggingface/transformers,casinca,1
+huggingface/transformers,arnavkewalram,1
+huggingface/transformers,agesf,1
+huggingface/transformers,Yuekai Zhang,1
+huggingface/transformers,Yuanyuan Chen,1
+huggingface/transformers,Yassin Yasser,1
+huggingface/transformers,Sungyoon Jeong,1
+huggingface/transformers,Siwon Park,1
+huggingface/transformers,Sina Sajadmanesh,1
+huggingface/transformers,Shamsudeen Saleem,1
+huggingface/transformers,Sehyun Choi,1
+huggingface/transformers,Saksham jain,1
+huggingface/transformers,Sainava,1
+huggingface/transformers,SHIJIN ZHANG,1
+huggingface/transformers,Raunaq,1
+huggingface/transformers,Ramshankar,1
+huggingface/transformers,Ramkumar R,1
+huggingface/transformers,Quentin Gallouédec,1
+huggingface/transformers,Punya Modi,1
+huggingface/transformers,Pedro Cuenca,1
+huggingface/transformers,Onuralp SEZER,1
+huggingface/transformers,Nicolas Hug,1
+huggingface/transformers,NanoCode012,1
+huggingface/transformers,Muhammed Sezer,1
+huggingface/transformers,Muhammed,1
+huggingface/transformers,Minho Ryu,1
+huggingface/transformers,Mi Jiazhi,1
+huggingface/transformers,Merve Noyan,1
+huggingface/transformers,MaciejBalaNV,1
+huggingface/transformers,MAHIR DAIYAN,1
+huggingface/transformers,Lê Duy Khang,1
+huggingface/transformers,Lucain,1
+huggingface/transformers,Kurt McKee,1
+huggingface/transformers,Kuntal Pal,1
+huggingface/transformers,Kropiunig,1
+huggingface/transformers,Koichi Yasuoka,1
+huggingface/transformers,Kimon N.,1
+huggingface/transformers,Kashif Rasul,1
+huggingface/transformers,Kamran Khan,1
+huggingface/transformers,José Miguel del Río,1
+huggingface/transformers,Joe Rowell,1
+huggingface/transformers,Joao Assad,1
+huggingface/transformers,Jeremy Perera,1
+huggingface/transformers,JemmaUZH,1
+huggingface/transformers,JJJYmmm,1
+huggingface/transformers,Irfaan Mansoori,1
+huggingface/transformers,Ferdinand Mom,1
+huggingface/transformers,Esa Fazal,1
+huggingface/transformers,Claudio,1
+huggingface/transformers,Callie Chen,1
+huggingface/transformers,Butterfingrz,1
+huggingface/transformers,BoringCrypto,1
+huggingface/transformers,Bob Ok,1
+huggingface/transformers,Bissmella Bahaduri,1
+huggingface/transformers,Azeez,1
+huggingface/transformers,AtharvAgarwal,1
+huggingface/transformers,Andy Lin,1
+huggingface/transformers,Alvaro Moran,1
+huggingface/transformers,Adil,1
+huggingface/transformers,A Praful Srinivasan,1
+langchain-ai/langchain,Mason Daugherty,111
+langchain-ai/langchain,Christophe Bornet,17
+langchain-ai/langchain,Nick Hollon,9
+langchain-ai/langchain,ccurme,3
+langchain-ai/langchain,rbuchmayer-pplx,2
+langchain-ai/langchain,Sydney Runkle,1
+langchain-ai/langchain,Nishitha M,1
+langchain-ai/langchain,Nidhi Rajani,1
+langchain-ai/langchain,John Kennedy,1
+langchain-ai/langchain,James,1
+langchain-ai/langchain,Christian Bromann,1
+langchain-ai/langchain,Alvin Tang,1
+langchain-ai/langchain,Alexander Olsen,1
+ollama/ollama,Daniel Hiltgen,84
+ollama/ollama,Parth Sareen,50
+ollama/ollama,Jesse Gross,40
+ollama/ollama,Eva H,35
+ollama/ollama,Devon Rifkin,19
+ollama/ollama,Patrick Devine,18
+ollama/ollama,Bruce MacDonald,17
+ollama/ollama,Jeffrey Morgan,14
+ollama/ollama,Matteo Celani,3
+ollama/ollama,Michael Yang,2
+ollama/ollama,saman-amd,1
+ollama/ollama,rick,1
+ollama/ollama,madflow,1
+ollama/ollama,anish,1
+ollama/ollama,ZiTian Zhao,1
+ollama/ollama,Sahil Kadadekar,1
+ollama/ollama,Pratham Agarwal,1
+ollama/ollama,Philip Sinitsin,1
+ollama/ollama,Parafee41,1
+ollama/ollama,Mike Wallio,1
+ollama/ollama,Michael Verrilli,1
+ollama/ollama,Mark Ward,1
+ollama/ollama,Kevin Park,1
+ollama/ollama,Chris Chen,1
+ollama/ollama,Anto jones,1
+ollama/ollama,Alfredo Matas,1
+ollama/ollama,Aditya Aggarwal,1
+ollama/ollama,7. Sun,1
+run-llama/llama_index,Logan,37
+run-llama/llama_index,GAUTAM V DATLA,14
+run-llama/llama_index,joshuakilts,10
+run-llama/llama_index,Dream,8
+run-llama/llama_index,Matt,7
+run-llama/llama_index,WOLIKIMCHENG,5
+run-llama/llama_index,it-education-md,4
+run-llama/llama_index,Clelia (Astra) Bertelli,4
+run-llama/llama_index,Br1an,4
+run-llama/llama_index,Adrian Lyjak,4
+run-llama/llama_index,Rolly Calma,3
+run-llama/llama_index,Phives,3
+run-llama/llama_index,Mark McDonald,3
+run-llama/llama_index,Krish Garg,3
+run-llama/llama_index,ChinhLee,3
+run-llama/llama_index,Benjamin Schloss,3
+run-llama/llama_index,Alvin Tang,3
+run-llama/llama_index,mykola-pereyma,2
+run-llama/llama_index,jasiecky,2
+run-llama/llama_index,connorszczepaniak-wk,2
+run-llama/llama_index,citizen204,2
+run-llama/llama_index,Zamuldinov Nikita,2
+run-llama/llama_index,Tejas Attarde,2
+run-llama/llama_index,Shivam Lalakiya,2
+run-llama/llama_index,P4rth,2
+run-llama/llama_index,Omkumar Solanki,2
+run-llama/llama_index,Malaika,2
+run-llama/llama_index,Kevin Orellana,2
+run-llama/llama_index,Joaquin Hui,2
+run-llama/llama_index,JiangNan,2
+run-llama/llama_index,青雲,1
+run-llama/llama_index,安妮的心动录,1
+run-llama/llama_index,一年又一年,1
+run-llama/llama_index,zxzinn,1
+run-llama/llama_index,weiguang li,1
+run-llama/llama_index,vivek varikuti,1
+run-llama/llama_index,jilongW,1
+run-llama/llama_index,hshgogogo,1
+run-llama/llama_index,gauravSsinha,1
+run-llama/llama_index,fzowl,1
+run-llama/llama_index,enrico-stauss,1
+run-llama/llama_index,dataCenter430,1
+run-llama/llama_index,Yong Studt,1
+run-llama/llama_index,Yannic Spreen-Ledebur,1
+run-llama/llama_index,Xiangyu Li,1
+run-llama/llama_index,William Espegren,1
+run-llama/llama_index,Weiguang Li,1
+run-llama/llama_index,Vishal Kumar Singh,1
+run-llama/llama_index,Victoria Alabi,1
+run-llama/llama_index,Tomaz Bratanic,1
+run-llama/llama_index,Tom Aarsen,1
+run-llama/llama_index,Tanishq,1
+run-llama/llama_index,Suroy,1
+run-llama/llama_index,Steven Butler,1
+run-llama/llama_index,Ruiz Díaz Manuel,1
+run-llama/llama_index,Ritika Muruganandam,1
+run-llama/llama_index,Richard9036,1
+run-llama/llama_index,Ricardo-M-L,1
+run-llama/llama_index,Renzo,1
+run-llama/llama_index,Ratish Oberoi,1
+run-llama/llama_index,Ran Shemtov,1
+run-llama/llama_index,Rahul Choudhary,1
+run-llama/llama_index,Pranay Tiwari,1
+run-llama/llama_index,Patricia,1
+run-llama/llama_index,PandaMan,1
+run-llama/llama_index,Octopus,1
+run-llama/llama_index,Obinna Iheanachor,1
+run-llama/llama_index,Nhat Minh,1
+run-llama/llama_index,Nachiket Torwekar,1
+run-llama/llama_index,Mingi Jeong,1
+run-llama/llama_index,Mikhail Kulinich,1
+run-llama/llama_index,Mihir Inamdar,1
+run-llama/llama_index,Miha,1
+run-llama/llama_index,Maxwell Calkin,1
+run-llama/llama_index,Martina Lupini,1
+run-llama/llama_index,Marco Vinciguerra,1
+run-llama/llama_index,Luca Colombo,1
+run-llama/llama_index,Krishna Chaitanya,1
+run-llama/llama_index,Keshav Arora,1
+run-llama/llama_index,Karan Shelar,1
+run-llama/llama_index,K HARSHAVARDHAN,1
+run-llama/llama_index,Josh Przybyszewski,1
+run-llama/llama_index,Joey Roth,1
+run-llama/llama_index,Ishan Goswami,1
+run-llama/llama_index,Howard Peng,1
+run-llama/llama_index,Henry Su,1
+run-llama/llama_index,Habibul Rahman Qalbi,1
+run-llama/llama_index,Gaurav Dubey,1
+run-llama/llama_index,FrancoisDumont30,1
+run-llama/llama_index,Florian BACHO,1
+run-llama/llama_index,Faizzyhon,1
+run-llama/llama_index,Ethan T.,1
+run-llama/llama_index,Dustin Godevais,1
+run-llama/llama_index,Diego Kiedanski,1
+run-llama/llama_index,Debu Sinha,1
+run-llama/llama_index,Canberk Özkan,1
+run-llama/llama_index,Cade,1
+run-llama/llama_index,Bryan Bednarski,1
+run-llama/llama_index,Blake Ledden,1
+run-llama/llama_index,BillionToken,1
+run-llama/llama_index,Bharath Kalimuthu,1
+run-llama/llama_index,Baasit Sharief,1
+run-llama/llama_index,Ayush Shekhar,1
+run-llama/llama_index,Ashir Ali Shah,1
+run-llama/llama_index,AnujKukunarapu,1
+run-llama/llama_index,Antonio Mello,1
+run-llama/llama_index,Anoop Sharma,1
+run-llama/llama_index,André Gustavo Moutinho,1
+run-llama/llama_index,Alok Tripathi,1
+run-llama/llama_index,Ahmed Moubtahij,1
+run-llama/llama_index,Ahmad Afzal,1
+run-llama/llama_index,Adolfo Fitoria,1
+run-llama/llama_index,Aditya Raut,1
+run-llama/llama_index,Aayush Jain,1
+run-llama/llama_index,AUDO,1
