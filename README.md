@@ -77,21 +77,6 @@ GitHub API  →  Python (extract + clean)  →  SQLite (store + query)  →  Tab
 - Interactive filters (repo selector, recency filter)
 - A guided **Story** walking through each finding with a question-driven narrative
 
-## Project Structure
-
-```
-├── github_analytics.db          # SQLite database with all pulled data
-├── repos_metadata.csv           # Repo-level stats (stars, forks, issues, etc.)
-├── commits_data.csv             # Raw commit-level data (up to 300 per repo)
-├── issues_data.csv              # Raw issue-level data (up to 300 per repo)
-├── bot_vs_human.csv             # Aggregated bot vs. human commit counts
-├── resolution_time.csv          # Avg. issue resolution time per repo
-├── open_vs_closed.csv           # Open vs. closed issue counts per repo
-├── label_breakdown.csv          # Individual issue label counts per repo
-├── last_updated.csv             # Days since last push per repo
-├── github_pull.ipynb            # Jupyter notebook: API extraction + cleaning
-└── README.md
-```
 
 ## How to Reproduce
 
@@ -110,6 +95,6 @@ GitHub API  →  Python (extract + clean)  →  SQLite (store + query)  →  Tab
 - "Health" is measured using activity signals (resolution speed, commit source, backlog ratio) — it does not account for code quality, test coverage, or documentation quality
 - Data reflects a single point-in-time snapshot; re-running the pipeline is needed to track trends over time
 
-## Author
-
-Built as a personal data analytics project to practice an end-to-end pipeline: live API extraction → SQL-based analysis → business intelligence dashboarding.
+### Author 
+## Chiru Ratnala
+**LinkedIn:** [https://github.com/chiruratnala](https://www.linkedin.com/in/chiru-ratnala)
