@@ -97,4 +97,4 @@ GitHub API  →  Python (extract + clean)  →  SQLite (store + query)  →  Tab
 
 ### Author 
 ## Chiru Ratnala
-**[LinkedIn](https://www.linkedin.com/in/chiru-ratnala)**
+**[LinkedIn](https://www.linkedin.com/in/chiru-ratnala)**  **[Portfolio](https://chiruratnala.netlify.app/)**
